@@ -1,0 +1,6002 @@
+[
+    {
+        "episode": 1,
+        "step": 2916,
+        "reward": 2746.0,
+        "lifetime": 40105
+    },
+    {
+        "episode": 2,
+        "step": 1115,
+        "reward": 1064.0,
+        "lifetime": 16155
+    },
+    {
+        "episode": 3,
+        "step": 1997,
+        "reward": 1903.0,
+        "lifetime": 29400
+    },
+    {
+        "episode": 4,
+        "step": 1647,
+        "reward": 1567.0,
+        "lifetime": 22350
+    },
+    {
+        "episode": 5,
+        "step": 767,
+        "reward": 694.0,
+        "lifetime": 10795
+    },
+    {
+        "episode": 6,
+        "step": 3278,
+        "reward": 3088.0,
+        "lifetime": 46760
+    },
+    {
+        "episode": 7,
+        "step": 841,
+        "reward": 791.0,
+        "lifetime": 11250
+    },
+    {
+        "episode": 8,
+        "step": 379,
+        "reward": 358.0,
+        "lifetime": 5515
+    },
+    {
+        "episode": 9,
+        "step": 1415,
+        "reward": 1344.0,
+        "lifetime": 20660
+    },
+    {
+        "episode": 10,
+        "step": 1199,
+        "reward": 1135.0,
+        "lifetime": 17085
+    },
+    {
+        "episode": 11,
+        "step": 4692,
+        "reward": 4400.0,
+        "lifetime": 64705
+    },
+    {
+        "episode": 12,
+        "step": 1261,
+        "reward": 1193.0,
+        "lifetime": 17730
+    },
+    {
+        "episode": 13,
+        "step": 1358,
+        "reward": 1242.0,
+        "lifetime": 19195
+    },
+    {
+        "episode": 14,
+        "step": 819,
+        "reward": 772.0,
+        "lifetime": 11490
+    },
+    {
+        "episode": 15,
+        "step": 286,
+        "reward": 264.0,
+        "lifetime": 3895
+    },
+    {
+        "episode": 16,
+        "step": 2392,
+        "reward": 2241.0,
+        "lifetime": 35565
+    },
+    {
+        "episode": 17,
+        "step": 460,
+        "reward": 438.0,
+        "lifetime": 6875
+    },
+    {
+        "episode": 18,
+        "step": 892,
+        "reward": 833.0,
+        "lifetime": 12940
+    },
+    {
+        "episode": 19,
+        "step": 4324,
+        "reward": 4102.0,
+        "lifetime": 59890
+    },
+    {
+        "episode": 20,
+        "step": 1350,
+        "reward": 1253.0,
+        "lifetime": 20350
+    },
+    {
+        "episode": 21,
+        "step": 1594,
+        "reward": 1492.0,
+        "lifetime": 21510
+    },
+    {
+        "episode": 22,
+        "step": 875,
+        "reward": 822.0,
+        "lifetime": 11805
+    },
+    {
+        "episode": 23,
+        "step": 345,
+        "reward": 329.0,
+        "lifetime": 4825
+    },
+    {
+        "episode": 24,
+        "step": 67,
+        "reward": 64.0,
+        "lifetime": 880
+    },
+    {
+        "episode": 25,
+        "step": 89,
+        "reward": 86.0,
+        "lifetime": 1040
+    },
+    {
+        "episode": 26,
+        "step": 1349,
+        "reward": 1266.0,
+        "lifetime": 18185
+    },
+    {
+        "episode": 27,
+        "step": 1090,
+        "reward": 1034.0,
+        "lifetime": 16180
+    },
+    {
+        "episode": 28,
+        "step": 95,
+        "reward": 90.0,
+        "lifetime": 1535
+    },
+    {
+        "episode": 29,
+        "step": 2863,
+        "reward": 2685.0,
+        "lifetime": 38585
+    },
+    {
+        "episode": 30,
+        "step": 1472,
+        "reward": 1383.0,
+        "lifetime": 19985
+    },
+    {
+        "episode": 31,
+        "step": 382,
+        "reward": 367.0,
+        "lifetime": 5920
+    },
+    {
+        "episode": 32,
+        "step": 3475,
+        "reward": 3253.0,
+        "lifetime": 48535
+    },
+    {
+        "episode": 33,
+        "step": 2142,
+        "reward": 1996.0,
+        "lifetime": 30935
+    },
+    {
+        "episode": 34,
+        "step": 295,
+        "reward": 280.0,
+        "lifetime": 3975
+    },
+    {
+        "episode": 35,
+        "step": 5482,
+        "reward": 5187.0,
+        "lifetime": 78060
+    },
+    {
+        "episode": 36,
+        "step": 1231,
+        "reward": 1160.0,
+        "lifetime": 17860
+    },
+    {
+        "episode": 37,
+        "step": 254,
+        "reward": 219.0,
+        "lifetime": 3385
+    },
+    {
+        "episode": 38,
+        "step": 1049,
+        "reward": 981.0,
+        "lifetime": 15085
+    },
+    {
+        "episode": 39,
+        "step": 1307,
+        "reward": 1238.0,
+        "lifetime": 18130
+    },
+    {
+        "episode": 40,
+        "step": 3626,
+        "reward": 3437.0,
+        "lifetime": 53945
+    },
+    {
+        "episode": 41,
+        "step": 558,
+        "reward": 519.0,
+        "lifetime": 8455
+    },
+    {
+        "episode": 42,
+        "step": 1341,
+        "reward": 1246.0,
+        "lifetime": 18430
+    },
+    {
+        "episode": 43,
+        "step": 791,
+        "reward": 747.0,
+        "lifetime": 11085
+    },
+    {
+        "episode": 44,
+        "step": 2212,
+        "reward": 2077.0,
+        "lifetime": 31945
+    },
+    {
+        "episode": 45,
+        "step": 2490,
+        "reward": 2354.0,
+        "lifetime": 34080
+    },
+    {
+        "episode": 46,
+        "step": 704,
+        "reward": 658.0,
+        "lifetime": 10050
+    },
+    {
+        "episode": 47,
+        "step": 18,
+        "reward": 15.0,
+        "lifetime": 240
+    },
+    {
+        "episode": 48,
+        "step": 387,
+        "reward": 376.0,
+        "lifetime": 5505
+    },
+    {
+        "episode": 49,
+        "step": 675,
+        "reward": 623.0,
+        "lifetime": 9285
+    },
+    {
+        "episode": 50,
+        "step": 144,
+        "reward": 132.0,
+        "lifetime": 2145
+    },
+    {
+        "episode": 51,
+        "step": 81,
+        "reward": 75.0,
+        "lifetime": 1300
+    },
+    {
+        "episode": 52,
+        "step": 2415,
+        "reward": 2230.0,
+        "lifetime": 33985
+    },
+    {
+        "episode": 53,
+        "step": 1797,
+        "reward": 1696.0,
+        "lifetime": 24645
+    },
+    {
+        "episode": 54,
+        "step": 198,
+        "reward": 186.0,
+        "lifetime": 2730
+    },
+    {
+        "episode": 55,
+        "step": 273,
+        "reward": 260.0,
+        "lifetime": 4675
+    },
+    {
+        "episode": 56,
+        "step": 1117,
+        "reward": 1061.0,
+        "lifetime": 16030
+    },
+    {
+        "episode": 57,
+        "step": 421,
+        "reward": 385.0,
+        "lifetime": 6305
+    },
+    {
+        "episode": 58,
+        "step": 45,
+        "reward": 42.0,
+        "lifetime": 745
+    },
+    {
+        "episode": 59,
+        "step": 131,
+        "reward": 118.0,
+        "lifetime": 2010
+    },
+    {
+        "episode": 60,
+        "step": 1465,
+        "reward": 1363.0,
+        "lifetime": 21050
+    },
+    {
+        "episode": 61,
+        "step": 229,
+        "reward": 213.0,
+        "lifetime": 3380
+    },
+    {
+        "episode": 62,
+        "step": 2137,
+        "reward": 2012.0,
+        "lifetime": 29765
+    },
+    {
+        "episode": 63,
+        "step": 1020,
+        "reward": 962.0,
+        "lifetime": 14170
+    },
+    {
+        "episode": 64,
+        "step": 20,
+        "reward": 19.0,
+        "lifetime": 270
+    },
+    {
+        "episode": 65,
+        "step": 1468,
+        "reward": 1372.0,
+        "lifetime": 19985
+    },
+    {
+        "episode": 66,
+        "step": 831,
+        "reward": 771.0,
+        "lifetime": 11850
+    },
+    {
+        "episode": 67,
+        "step": 1529,
+        "reward": 1441.0,
+        "lifetime": 20525
+    },
+    {
+        "episode": 68,
+        "step": 2907,
+        "reward": 2728.0,
+        "lifetime": 41330
+    },
+    {
+        "episode": 69,
+        "step": 1495,
+        "reward": 1394.0,
+        "lifetime": 20910
+    },
+    {
+        "episode": 70,
+        "step": 1932,
+        "reward": 1814.0,
+        "lifetime": 26660
+    },
+    {
+        "episode": 71,
+        "step": 301,
+        "reward": 280.0,
+        "lifetime": 4330
+    },
+    {
+        "episode": 72,
+        "step": 761,
+        "reward": 713.0,
+        "lifetime": 11140
+    },
+    {
+        "episode": 73,
+        "step": 122,
+        "reward": 113.0,
+        "lifetime": 1630
+    },
+    {
+        "episode": 74,
+        "step": 697,
+        "reward": 656.0,
+        "lifetime": 9050
+    },
+    {
+        "episode": 75,
+        "step": 717,
+        "reward": 673.0,
+        "lifetime": 10380
+    },
+    {
+        "episode": 76,
+        "step": 51,
+        "reward": 44.0,
+        "lifetime": 630
+    },
+    {
+        "episode": 77,
+        "step": 882,
+        "reward": 820.0,
+        "lifetime": 11800
+    },
+    {
+        "episode": 78,
+        "step": 640,
+        "reward": 599.0,
+        "lifetime": 9100
+    },
+    {
+        "episode": 79,
+        "step": 6928,
+        "reward": 6552.0,
+        "lifetime": 98325
+    },
+    {
+        "episode": 80,
+        "step": 444,
+        "reward": 405.0,
+        "lifetime": 6270
+    },
+    {
+        "episode": 81,
+        "step": 2222,
+        "reward": 2073.0,
+        "lifetime": 29980
+    },
+    {
+        "episode": 82,
+        "step": 271,
+        "reward": 248.0,
+        "lifetime": 3580
+    },
+    {
+        "episode": 83,
+        "step": 1991,
+        "reward": 1885.0,
+        "lifetime": 27415
+    },
+    {
+        "episode": 84,
+        "step": 2670,
+        "reward": 2498.0,
+        "lifetime": 37495
+    },
+    {
+        "episode": 85,
+        "step": 2785,
+        "reward": 2624.0,
+        "lifetime": 39380
+    },
+    {
+        "episode": 86,
+        "step": 2217,
+        "reward": 2044.0,
+        "lifetime": 30535
+    },
+    {
+        "episode": 87,
+        "step": 364,
+        "reward": 352.0,
+        "lifetime": 5410
+    },
+    {
+        "episode": 88,
+        "step": 1838,
+        "reward": 1674.0,
+        "lifetime": 25485
+    },
+    {
+        "episode": 89,
+        "step": 3675,
+        "reward": 3469.0,
+        "lifetime": 51415
+    },
+    {
+        "episode": 90,
+        "step": 69,
+        "reward": 65.0,
+        "lifetime": 1320
+    },
+    {
+        "episode": 91,
+        "step": 1972,
+        "reward": 1869.0,
+        "lifetime": 27465
+    },
+    {
+        "episode": 92,
+        "step": 3625,
+        "reward": 3428.0,
+        "lifetime": 50935
+    },
+    {
+        "episode": 93,
+        "step": 1997,
+        "reward": 1857.0,
+        "lifetime": 26865
+    },
+    {
+        "episode": 94,
+        "step": 180,
+        "reward": 137.0,
+        "lifetime": 2310
+    },
+    {
+        "episode": 95,
+        "step": 716,
+        "reward": 680.0,
+        "lifetime": 10405
+    },
+    {
+        "episode": 96,
+        "step": 1205,
+        "reward": 1141.0,
+        "lifetime": 17130
+    },
+    {
+        "episode": 97,
+        "step": 2051,
+        "reward": 1948.0,
+        "lifetime": 27745
+    },
+    {
+        "episode": 98,
+        "step": 1028,
+        "reward": 937.0,
+        "lifetime": 13750
+    },
+    {
+        "episode": 99,
+        "step": 469,
+        "reward": 446.0,
+        "lifetime": 6790
+    },
+    {
+        "episode": 100,
+        "step": 880,
+        "reward": 822.0,
+        "lifetime": 12085
+    },
+    {
+        "episode": 101,
+        "step": 616,
+        "reward": 587.0,
+        "lifetime": 8840
+    },
+    {
+        "episode": 102,
+        "step": 757,
+        "reward": 720.0,
+        "lifetime": 9570
+    },
+    {
+        "episode": 103,
+        "step": 141,
+        "reward": 132.0,
+        "lifetime": 1980
+    },
+    {
+        "episode": 104,
+        "step": 558,
+        "reward": 528.0,
+        "lifetime": 7645
+    },
+    {
+        "episode": 105,
+        "step": 445,
+        "reward": 416.0,
+        "lifetime": 6500
+    },
+    {
+        "episode": 106,
+        "step": 279,
+        "reward": 269.0,
+        "lifetime": 4065
+    },
+    {
+        "episode": 107,
+        "step": 391,
+        "reward": 363.0,
+        "lifetime": 5360
+    },
+    {
+        "episode": 108,
+        "step": 704,
+        "reward": 655.0,
+        "lifetime": 10340
+    },
+    {
+        "episode": 109,
+        "step": 210,
+        "reward": 190.0,
+        "lifetime": 2915
+    },
+    {
+        "episode": 110,
+        "step": 1043,
+        "reward": 965.0,
+        "lifetime": 14980
+    },
+    {
+        "episode": 111,
+        "step": 156,
+        "reward": 134.0,
+        "lifetime": 2230
+    },
+    {
+        "episode": 112,
+        "step": 981,
+        "reward": 936.0,
+        "lifetime": 13540
+    },
+    {
+        "episode": 113,
+        "step": 294,
+        "reward": 272.0,
+        "lifetime": 3645
+    },
+    {
+        "episode": 114,
+        "step": 769,
+        "reward": 717.0,
+        "lifetime": 10810
+    },
+    {
+        "episode": 115,
+        "step": 1538,
+        "reward": 1457.0,
+        "lifetime": 21460
+    },
+    {
+        "episode": 116,
+        "step": 2152,
+        "reward": 2034.0,
+        "lifetime": 30995
+    },
+    {
+        "episode": 117,
+        "step": 246,
+        "reward": 236.0,
+        "lifetime": 3170
+    },
+    {
+        "episode": 118,
+        "step": 152,
+        "reward": 136.0,
+        "lifetime": 2110
+    },
+    {
+        "episode": 119,
+        "step": 714,
+        "reward": 670.0,
+        "lifetime": 10355
+    },
+    {
+        "episode": 120,
+        "step": 986,
+        "reward": 945.0,
+        "lifetime": 13730
+    },
+    {
+        "episode": 121,
+        "step": 747,
+        "reward": 693.0,
+        "lifetime": 9960
+    },
+    {
+        "episode": 122,
+        "step": 2869,
+        "reward": 2711.0,
+        "lifetime": 41965
+    },
+    {
+        "episode": 123,
+        "step": 2449,
+        "reward": 2298.0,
+        "lifetime": 35410
+    },
+    {
+        "episode": 124,
+        "step": 954,
+        "reward": 908.0,
+        "lifetime": 13230
+    },
+    {
+        "episode": 125,
+        "step": 89,
+        "reward": 81.0,
+        "lifetime": 1345
+    },
+    {
+        "episode": 126,
+        "step": 101,
+        "reward": 92.0,
+        "lifetime": 1315
+    },
+    {
+        "episode": 127,
+        "step": 1497,
+        "reward": 1413.0,
+        "lifetime": 20250
+    },
+    {
+        "episode": 128,
+        "step": 678,
+        "reward": 643.0,
+        "lifetime": 8695
+    },
+    {
+        "episode": 129,
+        "step": 316,
+        "reward": 293.0,
+        "lifetime": 4255
+    },
+    {
+        "episode": 130,
+        "step": 538,
+        "reward": 507.0,
+        "lifetime": 7675
+    },
+    {
+        "episode": 131,
+        "step": 563,
+        "reward": 507.0,
+        "lifetime": 7335
+    },
+    {
+        "episode": 132,
+        "step": 289,
+        "reward": 272.0,
+        "lifetime": 4855
+    },
+    {
+        "episode": 133,
+        "step": 1240,
+        "reward": 1166.0,
+        "lifetime": 17625
+    },
+    {
+        "episode": 134,
+        "step": 3765,
+        "reward": 3575.0,
+        "lifetime": 52855
+    },
+    {
+        "episode": 135,
+        "step": 935,
+        "reward": 876.0,
+        "lifetime": 13145
+    },
+    {
+        "episode": 136,
+        "step": 676,
+        "reward": 642.0,
+        "lifetime": 9915
+    },
+    {
+        "episode": 137,
+        "step": 88,
+        "reward": 80.0,
+        "lifetime": 1165
+    },
+    {
+        "episode": 138,
+        "step": 48,
+        "reward": 45.0,
+        "lifetime": 655
+    },
+    {
+        "episode": 139,
+        "step": 551,
+        "reward": 511.0,
+        "lifetime": 7180
+    },
+    {
+        "episode": 140,
+        "step": 325,
+        "reward": 304.0,
+        "lifetime": 4950
+    },
+    {
+        "episode": 141,
+        "step": 560,
+        "reward": 537.0,
+        "lifetime": 7615
+    },
+    {
+        "episode": 142,
+        "step": 115,
+        "reward": 85.0,
+        "lifetime": 1485
+    },
+    {
+        "episode": 143,
+        "step": 242,
+        "reward": 229.0,
+        "lifetime": 3750
+    },
+    {
+        "episode": 144,
+        "step": 1036,
+        "reward": 971.0,
+        "lifetime": 15210
+    },
+    {
+        "episode": 145,
+        "step": 585,
+        "reward": 550.0,
+        "lifetime": 7835
+    },
+    {
+        "episode": 146,
+        "step": 395,
+        "reward": 366.0,
+        "lifetime": 5495
+    },
+    {
+        "episode": 147,
+        "step": 2490,
+        "reward": 2347.0,
+        "lifetime": 36045
+    },
+    {
+        "episode": 148,
+        "step": 1031,
+        "reward": 957.0,
+        "lifetime": 14510
+    },
+    {
+        "episode": 149,
+        "step": 3506,
+        "reward": 3266.0,
+        "lifetime": 48545
+    },
+    {
+        "episode": 150,
+        "step": 2685,
+        "reward": 2540.0,
+        "lifetime": 38470
+    },
+    {
+        "episode": 151,
+        "step": 1052,
+        "reward": 1000.0,
+        "lifetime": 15015
+    },
+    {
+        "episode": 152,
+        "step": 535,
+        "reward": 505.0,
+        "lifetime": 7720
+    },
+    {
+        "episode": 153,
+        "step": 2781,
+        "reward": 2602.0,
+        "lifetime": 38500
+    },
+    {
+        "episode": 154,
+        "step": 772,
+        "reward": 691.0,
+        "lifetime": 10365
+    },
+    {
+        "episode": 155,
+        "step": 614,
+        "reward": 583.0,
+        "lifetime": 8585
+    },
+    {
+        "episode": 156,
+        "step": 1533,
+        "reward": 1464.0,
+        "lifetime": 21555
+    },
+    {
+        "episode": 157,
+        "step": 814,
+        "reward": 769.0,
+        "lifetime": 11415
+    },
+    {
+        "episode": 158,
+        "step": 127,
+        "reward": 121.0,
+        "lifetime": 1830
+    },
+    {
+        "episode": 159,
+        "step": 642,
+        "reward": 589.0,
+        "lifetime": 8905
+    },
+    {
+        "episode": 160,
+        "step": 2,
+        "reward": 0,
+        "lifetime": 25
+    },
+    {
+        "episode": 161,
+        "step": 1050,
+        "reward": 985.0,
+        "lifetime": 14195
+    },
+    {
+        "episode": 162,
+        "step": 3183,
+        "reward": 2994.0,
+        "lifetime": 45990
+    },
+    {
+        "episode": 163,
+        "step": 1506,
+        "reward": 1410.0,
+        "lifetime": 22275
+    },
+    {
+        "episode": 164,
+        "step": 789,
+        "reward": 732.0,
+        "lifetime": 10710
+    },
+    {
+        "episode": 165,
+        "step": 1289,
+        "reward": 1194.0,
+        "lifetime": 18055
+    },
+    {
+        "episode": 166,
+        "step": 231,
+        "reward": 221.0,
+        "lifetime": 3200
+    },
+    {
+        "episode": 167,
+        "step": 885,
+        "reward": 836.0,
+        "lifetime": 12875
+    },
+    {
+        "episode": 168,
+        "step": 674,
+        "reward": 634.0,
+        "lifetime": 9095
+    },
+    {
+        "episode": 169,
+        "step": 894,
+        "reward": 853.0,
+        "lifetime": 12260
+    },
+    {
+        "episode": 170,
+        "step": 1358,
+        "reward": 1284.0,
+        "lifetime": 20840
+    },
+    {
+        "episode": 171,
+        "step": 625,
+        "reward": 576.0,
+        "lifetime": 8385
+    },
+    {
+        "episode": 172,
+        "step": 2145,
+        "reward": 2002.0,
+        "lifetime": 29020
+    },
+    {
+        "episode": 173,
+        "step": 4452,
+        "reward": 4197.0,
+        "lifetime": 62545
+    },
+    {
+        "episode": 174,
+        "step": 562,
+        "reward": 513.0,
+        "lifetime": 8010
+    },
+    {
+        "episode": 175,
+        "step": 1090,
+        "reward": 1030.0,
+        "lifetime": 15155
+    },
+    {
+        "episode": 176,
+        "step": 563,
+        "reward": 529.0,
+        "lifetime": 8945
+    },
+    {
+        "episode": 177,
+        "step": 1438,
+        "reward": 1337.0,
+        "lifetime": 18890
+    },
+    {
+        "episode": 178,
+        "step": 125,
+        "reward": 109.0,
+        "lifetime": 1685
+    },
+    {
+        "episode": 179,
+        "step": 20,
+        "reward": 4.0,
+        "lifetime": 115
+    },
+    {
+        "episode": 180,
+        "step": 125,
+        "reward": 108.0,
+        "lifetime": 1545
+    },
+    {
+        "episode": 181,
+        "step": 393,
+        "reward": 369.0,
+        "lifetime": 4995
+    },
+    {
+        "episode": 182,
+        "step": 566,
+        "reward": 539.0,
+        "lifetime": 7855
+    },
+    {
+        "episode": 183,
+        "step": 2612,
+        "reward": 2444.0,
+        "lifetime": 35345
+    },
+    {
+        "episode": 184,
+        "step": 368,
+        "reward": 342.0,
+        "lifetime": 5585
+    },
+    {
+        "episode": 185,
+        "step": 1464,
+        "reward": 1363.0,
+        "lifetime": 20460
+    },
+    {
+        "episode": 186,
+        "step": 866,
+        "reward": 801.0,
+        "lifetime": 12140
+    },
+    {
+        "episode": 187,
+        "step": 1235,
+        "reward": 1170.0,
+        "lifetime": 17090
+    },
+    {
+        "episode": 188,
+        "step": 1447,
+        "reward": 1354.0,
+        "lifetime": 20230
+    },
+    {
+        "episode": 189,
+        "step": 1361,
+        "reward": 1298.0,
+        "lifetime": 18640
+    },
+    {
+        "episode": 190,
+        "step": 1146,
+        "reward": 1077.0,
+        "lifetime": 16740
+    },
+    {
+        "episode": 191,
+        "step": 2423,
+        "reward": 2257.0,
+        "lifetime": 32915
+    },
+    {
+        "episode": 192,
+        "step": 94,
+        "reward": 86.0,
+        "lifetime": 1210
+    },
+    {
+        "episode": 193,
+        "step": 530,
+        "reward": 490.0,
+        "lifetime": 7325
+    },
+    {
+        "episode": 194,
+        "step": 2136,
+        "reward": 1962.0,
+        "lifetime": 29640
+    },
+    {
+        "episode": 195,
+        "step": 560,
+        "reward": 533.0,
+        "lifetime": 8135
+    },
+    {
+        "episode": 196,
+        "step": 1611,
+        "reward": 1513.0,
+        "lifetime": 22455
+    },
+    {
+        "episode": 197,
+        "step": 247,
+        "reward": 229.0,
+        "lifetime": 3210
+    },
+    {
+        "episode": 198,
+        "step": 2462,
+        "reward": 2298.0,
+        "lifetime": 34750
+    },
+    {
+        "episode": 199,
+        "step": 2635,
+        "reward": 2496.0,
+        "lifetime": 36320
+    },
+    {
+        "episode": 200,
+        "step": 2210,
+        "reward": 2100.0,
+        "lifetime": 31545
+    },
+    {
+        "episode": 201,
+        "step": 2367,
+        "reward": 2219.0,
+        "lifetime": 32660
+    },
+    {
+        "episode": 202,
+        "step": 842,
+        "reward": 792.0,
+        "lifetime": 12545
+    },
+    {
+        "episode": 203,
+        "step": 1131,
+        "reward": 1081.0,
+        "lifetime": 16025
+    },
+    {
+        "episode": 204,
+        "step": 2292,
+        "reward": 2179.0,
+        "lifetime": 32695
+    },
+    {
+        "episode": 205,
+        "step": 1206,
+        "reward": 1121.0,
+        "lifetime": 16760
+    },
+    {
+        "episode": 206,
+        "step": 306,
+        "reward": 295.0,
+        "lifetime": 4090
+    },
+    {
+        "episode": 207,
+        "step": 145,
+        "reward": 126.0,
+        "lifetime": 1875
+    },
+    {
+        "episode": 208,
+        "step": 1108,
+        "reward": 1047.0,
+        "lifetime": 15300
+    },
+    {
+        "episode": 209,
+        "step": 877,
+        "reward": 816.0,
+        "lifetime": 12405
+    },
+    {
+        "episode": 210,
+        "step": 1040,
+        "reward": 960.0,
+        "lifetime": 15080
+    },
+    {
+        "episode": 211,
+        "step": 1484,
+        "reward": 1434.0,
+        "lifetime": 21645
+    },
+    {
+        "episode": 212,
+        "step": 1309,
+        "reward": 1248.0,
+        "lifetime": 18190
+    },
+    {
+        "episode": 213,
+        "step": 845,
+        "reward": 797.0,
+        "lifetime": 11750
+    },
+    {
+        "episode": 214,
+        "step": 1303,
+        "reward": 1236.0,
+        "lifetime": 19480
+    },
+    {
+        "episode": 215,
+        "step": 1160,
+        "reward": 1093.0,
+        "lifetime": 16045
+    },
+    {
+        "episode": 216,
+        "step": 719,
+        "reward": 690.0,
+        "lifetime": 10780
+    },
+    {
+        "episode": 217,
+        "step": 629,
+        "reward": 587.0,
+        "lifetime": 8560
+    },
+    {
+        "episode": 218,
+        "step": 1533,
+        "reward": 1442.0,
+        "lifetime": 20730
+    },
+    {
+        "episode": 219,
+        "step": 1294,
+        "reward": 1223.0,
+        "lifetime": 17965
+    },
+    {
+        "episode": 220,
+        "step": 2099,
+        "reward": 1987.0,
+        "lifetime": 29085
+    },
+    {
+        "episode": 221,
+        "step": 302,
+        "reward": 282.0,
+        "lifetime": 4130
+    },
+    {
+        "episode": 222,
+        "step": 100,
+        "reward": 92.0,
+        "lifetime": 1435
+    },
+    {
+        "episode": 223,
+        "step": 2199,
+        "reward": 2079.0,
+        "lifetime": 30910
+    },
+    {
+        "episode": 224,
+        "step": 324,
+        "reward": 296.0,
+        "lifetime": 4690
+    },
+    {
+        "episode": 225,
+        "step": 98,
+        "reward": 95.0,
+        "lifetime": 1420
+    },
+    {
+        "episode": 226,
+        "step": 628,
+        "reward": 586.0,
+        "lifetime": 8510
+    },
+    {
+        "episode": 227,
+        "step": 3559,
+        "reward": 3339.0,
+        "lifetime": 51005
+    },
+    {
+        "episode": 228,
+        "step": 1105,
+        "reward": 1039.0,
+        "lifetime": 14535
+    },
+    {
+        "episode": 229,
+        "step": 961,
+        "reward": 913.0,
+        "lifetime": 13260
+    },
+    {
+        "episode": 230,
+        "step": 247,
+        "reward": 226.0,
+        "lifetime": 3295
+    },
+    {
+        "episode": 231,
+        "step": 1032,
+        "reward": 966.0,
+        "lifetime": 14980
+    },
+    {
+        "episode": 232,
+        "step": 209,
+        "reward": 195.0,
+        "lifetime": 2875
+    },
+    {
+        "episode": 233,
+        "step": 632,
+        "reward": 599.0,
+        "lifetime": 9365
+    },
+    {
+        "episode": 234,
+        "step": 800,
+        "reward": 756.0,
+        "lifetime": 11335
+    },
+    {
+        "episode": 235,
+        "step": 662,
+        "reward": 613.0,
+        "lifetime": 9645
+    },
+    {
+        "episode": 236,
+        "step": 130,
+        "reward": 124.0,
+        "lifetime": 1735
+    },
+    {
+        "episode": 237,
+        "step": 571,
+        "reward": 533.0,
+        "lifetime": 7730
+    },
+    {
+        "episode": 238,
+        "step": 466,
+        "reward": 426.0,
+        "lifetime": 6340
+    },
+    {
+        "episode": 239,
+        "step": 1017,
+        "reward": 964.0,
+        "lifetime": 13850
+    },
+    {
+        "episode": 240,
+        "step": 62,
+        "reward": 61.0,
+        "lifetime": 920
+    },
+    {
+        "episode": 241,
+        "step": 42,
+        "reward": 40.0,
+        "lifetime": 600
+    },
+    {
+        "episode": 242,
+        "step": 127,
+        "reward": 119.0,
+        "lifetime": 1765
+    },
+    {
+        "episode": 243,
+        "step": 2115,
+        "reward": 1994.0,
+        "lifetime": 29120
+    },
+    {
+        "episode": 244,
+        "step": 300,
+        "reward": 268.0,
+        "lifetime": 3970
+    },
+    {
+        "episode": 245,
+        "step": 827,
+        "reward": 766.0,
+        "lifetime": 11255
+    },
+    {
+        "episode": 246,
+        "step": 496,
+        "reward": 439.0,
+        "lifetime": 6810
+    },
+    {
+        "episode": 247,
+        "step": 541,
+        "reward": 512.0,
+        "lifetime": 7465
+    },
+    {
+        "episode": 248,
+        "step": 3126,
+        "reward": 2941.0,
+        "lifetime": 45430
+    },
+    {
+        "episode": 249,
+        "step": 1959,
+        "reward": 1813.0,
+        "lifetime": 26585
+    },
+    {
+        "episode": 250,
+        "step": 5437,
+        "reward": 5155.0,
+        "lifetime": 77895
+    },
+    {
+        "episode": 251,
+        "step": 1628,
+        "reward": 1524.0,
+        "lifetime": 23810
+    },
+    {
+        "episode": 252,
+        "step": 140,
+        "reward": 134.0,
+        "lifetime": 1900
+    },
+    {
+        "episode": 253,
+        "step": 423,
+        "reward": 399.0,
+        "lifetime": 5980
+    },
+    {
+        "episode": 254,
+        "step": 1010,
+        "reward": 968.0,
+        "lifetime": 14840
+    },
+    {
+        "episode": 255,
+        "step": 814,
+        "reward": 763.0,
+        "lifetime": 11595
+    },
+    {
+        "episode": 256,
+        "step": 630,
+        "reward": 583.0,
+        "lifetime": 9220
+    },
+    {
+        "episode": 257,
+        "step": 1805,
+        "reward": 1702.0,
+        "lifetime": 25460
+    },
+    {
+        "episode": 258,
+        "step": 215,
+        "reward": 199.0,
+        "lifetime": 3190
+    },
+    {
+        "episode": 259,
+        "step": 456,
+        "reward": 418.0,
+        "lifetime": 5915
+    },
+    {
+        "episode": 260,
+        "step": 1055,
+        "reward": 992.0,
+        "lifetime": 14660
+    },
+    {
+        "episode": 261,
+        "step": 1392,
+        "reward": 1305.0,
+        "lifetime": 18695
+    },
+    {
+        "episode": 262,
+        "step": 296,
+        "reward": 278.0,
+        "lifetime": 4115
+    },
+    {
+        "episode": 263,
+        "step": 929,
+        "reward": 888.0,
+        "lifetime": 13710
+    },
+    {
+        "episode": 264,
+        "step": 314,
+        "reward": 298.0,
+        "lifetime": 4420
+    },
+    {
+        "episode": 265,
+        "step": 193,
+        "reward": 178.0,
+        "lifetime": 2200
+    },
+    {
+        "episode": 266,
+        "step": 713,
+        "reward": 656.0,
+        "lifetime": 9910
+    },
+    {
+        "episode": 267,
+        "step": 1337,
+        "reward": 1231.0,
+        "lifetime": 19045
+    },
+    {
+        "episode": 268,
+        "step": 1240,
+        "reward": 1169.0,
+        "lifetime": 17495
+    },
+    {
+        "episode": 269,
+        "step": 194,
+        "reward": 187.0,
+        "lifetime": 2475
+    },
+    {
+        "episode": 270,
+        "step": 2262,
+        "reward": 2131.0,
+        "lifetime": 32570
+    },
+    {
+        "episode": 271,
+        "step": 3244,
+        "reward": 2995.0,
+        "lifetime": 45275
+    },
+    {
+        "episode": 272,
+        "step": 209,
+        "reward": 202.0,
+        "lifetime": 2915
+    },
+    {
+        "episode": 273,
+        "step": 134,
+        "reward": 123.0,
+        "lifetime": 1660
+    },
+    {
+        "episode": 274,
+        "step": 478,
+        "reward": 452.0,
+        "lifetime": 6485
+    },
+    {
+        "episode": 275,
+        "step": 141,
+        "reward": 130.0,
+        "lifetime": 2065
+    },
+    {
+        "episode": 276,
+        "step": 67,
+        "reward": 62.0,
+        "lifetime": 915
+    },
+    {
+        "episode": 277,
+        "step": 585,
+        "reward": 544.0,
+        "lifetime": 8030
+    },
+    {
+        "episode": 278,
+        "step": 72,
+        "reward": 67.0,
+        "lifetime": 1140
+    },
+    {
+        "episode": 279,
+        "step": 90,
+        "reward": 77.0,
+        "lifetime": 1090
+    },
+    {
+        "episode": 280,
+        "step": 110,
+        "reward": 106.0,
+        "lifetime": 1695
+    },
+    {
+        "episode": 281,
+        "step": 147,
+        "reward": 137.0,
+        "lifetime": 2115
+    },
+    {
+        "episode": 282,
+        "step": 1141,
+        "reward": 1059.0,
+        "lifetime": 16465
+    },
+    {
+        "episode": 283,
+        "step": 761,
+        "reward": 702.0,
+        "lifetime": 11190
+    },
+    {
+        "episode": 284,
+        "step": 3762,
+        "reward": 3546.0,
+        "lifetime": 53625
+    },
+    {
+        "episode": 285,
+        "step": 155,
+        "reward": 147.0,
+        "lifetime": 2125
+    },
+    {
+        "episode": 286,
+        "step": 86,
+        "reward": 75.0,
+        "lifetime": 1265
+    },
+    {
+        "episode": 287,
+        "step": 454,
+        "reward": 432.0,
+        "lifetime": 6890
+    },
+    {
+        "episode": 288,
+        "step": 3906,
+        "reward": 3645.0,
+        "lifetime": 53920
+    },
+    {
+        "episode": 289,
+        "step": 555,
+        "reward": 532.0,
+        "lifetime": 7790
+    },
+    {
+        "episode": 290,
+        "step": 8,
+        "reward": 4.0,
+        "lifetime": 210
+    },
+    {
+        "episode": 291,
+        "step": 44,
+        "reward": 11.0,
+        "lifetime": 355
+    },
+    {
+        "episode": 292,
+        "step": 712,
+        "reward": 673.0,
+        "lifetime": 9920
+    },
+    {
+        "episode": 293,
+        "step": 1601,
+        "reward": 1487.0,
+        "lifetime": 21905
+    },
+    {
+        "episode": 294,
+        "step": 418,
+        "reward": 404.0,
+        "lifetime": 6270
+    },
+    {
+        "episode": 295,
+        "step": 1080,
+        "reward": 1003.0,
+        "lifetime": 14905
+    },
+    {
+        "episode": 296,
+        "step": 1016,
+        "reward": 965.0,
+        "lifetime": 15725
+    },
+    {
+        "episode": 297,
+        "step": 23,
+        "reward": 18.0,
+        "lifetime": 250
+    },
+    {
+        "episode": 298,
+        "step": 6478,
+        "reward": 6091.0,
+        "lifetime": 92940
+    },
+    {
+        "episode": 299,
+        "step": 628,
+        "reward": 602.0,
+        "lifetime": 8940
+    },
+    {
+        "episode": 300,
+        "step": 130,
+        "reward": 125.0,
+        "lifetime": 1595
+    },
+    {
+        "episode": 301,
+        "step": 931,
+        "reward": 877.0,
+        "lifetime": 13145
+    },
+    {
+        "episode": 302,
+        "step": 942,
+        "reward": 874.0,
+        "lifetime": 13475
+    },
+    {
+        "episode": 303,
+        "step": 2250,
+        "reward": 2139.0,
+        "lifetime": 32545
+    },
+    {
+        "episode": 304,
+        "step": 1,
+        "reward": 0,
+        "lifetime": 10
+    },
+    {
+        "episode": 305,
+        "step": 1114,
+        "reward": 1030.0,
+        "lifetime": 14875
+    },
+    {
+        "episode": 306,
+        "step": 1048,
+        "reward": 995.0,
+        "lifetime": 15415
+    },
+    {
+        "episode": 307,
+        "step": 270,
+        "reward": 255.0,
+        "lifetime": 3480
+    },
+    {
+        "episode": 308,
+        "step": 529,
+        "reward": 492.0,
+        "lifetime": 7290
+    },
+    {
+        "episode": 309,
+        "step": 647,
+        "reward": 604.0,
+        "lifetime": 10125
+    },
+    {
+        "episode": 310,
+        "step": 333,
+        "reward": 316.0,
+        "lifetime": 4695
+    },
+    {
+        "episode": 311,
+        "step": 41,
+        "reward": 31.0,
+        "lifetime": 430
+    },
+    {
+        "episode": 312,
+        "step": 1410,
+        "reward": 1342.0,
+        "lifetime": 19815
+    },
+    {
+        "episode": 313,
+        "step": 831,
+        "reward": 790.0,
+        "lifetime": 11925
+    },
+    {
+        "episode": 314,
+        "step": 2056,
+        "reward": 1946.0,
+        "lifetime": 29190
+    },
+    {
+        "episode": 315,
+        "step": 2858,
+        "reward": 2674.0,
+        "lifetime": 38605
+    },
+    {
+        "episode": 316,
+        "step": 324,
+        "reward": 302.0,
+        "lifetime": 4715
+    },
+    {
+        "episode": 317,
+        "step": 87,
+        "reward": 84.0,
+        "lifetime": 1340
+    },
+    {
+        "episode": 318,
+        "step": 451,
+        "reward": 420.0,
+        "lifetime": 6040
+    },
+    {
+        "episode": 319,
+        "step": 1882,
+        "reward": 1763.0,
+        "lifetime": 25570
+    },
+    {
+        "episode": 320,
+        "step": 323,
+        "reward": 280.0,
+        "lifetime": 3815
+    },
+    {
+        "episode": 321,
+        "step": 984,
+        "reward": 931.0,
+        "lifetime": 13970
+    },
+    {
+        "episode": 322,
+        "step": 345,
+        "reward": 314.0,
+        "lifetime": 4630
+    },
+    {
+        "episode": 323,
+        "step": 2835,
+        "reward": 2670.0,
+        "lifetime": 39285
+    },
+    {
+        "episode": 324,
+        "step": 1276,
+        "reward": 1219.0,
+        "lifetime": 18495
+    },
+    {
+        "episode": 325,
+        "step": 781,
+        "reward": 737.0,
+        "lifetime": 10605
+    },
+    {
+        "episode": 326,
+        "step": 1111,
+        "reward": 1044.0,
+        "lifetime": 15580
+    },
+    {
+        "episode": 327,
+        "step": 1252,
+        "reward": 1127.0,
+        "lifetime": 16895
+    },
+    {
+        "episode": 328,
+        "step": 897,
+        "reward": 844.0,
+        "lifetime": 12365
+    },
+    {
+        "episode": 329,
+        "step": 1070,
+        "reward": 992.0,
+        "lifetime": 13880
+    },
+    {
+        "episode": 330,
+        "step": 1140,
+        "reward": 1072.0,
+        "lifetime": 16980
+    },
+    {
+        "episode": 331,
+        "step": 1635,
+        "reward": 1513.0,
+        "lifetime": 22305
+    },
+    {
+        "episode": 332,
+        "step": 541,
+        "reward": 508.0,
+        "lifetime": 6830
+    },
+    {
+        "episode": 333,
+        "step": 663,
+        "reward": 625.0,
+        "lifetime": 9360
+    },
+    {
+        "episode": 334,
+        "step": 2161,
+        "reward": 2025.0,
+        "lifetime": 30460
+    },
+    {
+        "episode": 335,
+        "step": 2521,
+        "reward": 2330.0,
+        "lifetime": 36320
+    },
+    {
+        "episode": 336,
+        "step": 366,
+        "reward": 346.0,
+        "lifetime": 4555
+    },
+    {
+        "episode": 337,
+        "step": 1073,
+        "reward": 1006.0,
+        "lifetime": 15420
+    },
+    {
+        "episode": 338,
+        "step": 27,
+        "reward": 24.0,
+        "lifetime": 420
+    },
+    {
+        "episode": 339,
+        "step": 3058,
+        "reward": 2880.0,
+        "lifetime": 42075
+    },
+    {
+        "episode": 340,
+        "step": 449,
+        "reward": 428.0,
+        "lifetime": 6745
+    },
+    {
+        "episode": 341,
+        "step": 1120,
+        "reward": 1065.0,
+        "lifetime": 16610
+    },
+    {
+        "episode": 342,
+        "step": 1709,
+        "reward": 1605.0,
+        "lifetime": 23735
+    },
+    {
+        "episode": 343,
+        "step": 129,
+        "reward": 107.0,
+        "lifetime": 1675
+    },
+    {
+        "episode": 344,
+        "step": 268,
+        "reward": 253.0,
+        "lifetime": 3825
+    },
+    {
+        "episode": 345,
+        "step": 348,
+        "reward": 316.0,
+        "lifetime": 5200
+    },
+    {
+        "episode": 346,
+        "step": 430,
+        "reward": 400.0,
+        "lifetime": 6465
+    },
+    {
+        "episode": 347,
+        "step": 1024,
+        "reward": 968.0,
+        "lifetime": 13965
+    },
+    {
+        "episode": 348,
+        "step": 2218,
+        "reward": 2119.0,
+        "lifetime": 31440
+    },
+    {
+        "episode": 349,
+        "step": 836,
+        "reward": 800.0,
+        "lifetime": 12400
+    },
+    {
+        "episode": 350,
+        "step": 9893,
+        "reward": 9294.0,
+        "lifetime": 138685
+    },
+    {
+        "episode": 351,
+        "step": 7,
+        "reward": 2.0,
+        "lifetime": 90
+    },
+    {
+        "episode": 352,
+        "step": 365,
+        "reward": 342.0,
+        "lifetime": 5315
+    },
+    {
+        "episode": 353,
+        "step": 30,
+        "reward": 29.0,
+        "lifetime": 530
+    },
+    {
+        "episode": 354,
+        "step": 14,
+        "reward": 8.0,
+        "lifetime": 135
+    },
+    {
+        "episode": 355,
+        "step": 311,
+        "reward": 265.0,
+        "lifetime": 4155
+    },
+    {
+        "episode": 356,
+        "step": 1537,
+        "reward": 1464.0,
+        "lifetime": 22680
+    },
+    {
+        "episode": 357,
+        "step": 396,
+        "reward": 365.0,
+        "lifetime": 4875
+    },
+    {
+        "episode": 358,
+        "step": 2210,
+        "reward": 2055.0,
+        "lifetime": 30515
+    },
+    {
+        "episode": 359,
+        "step": 428,
+        "reward": 362.0,
+        "lifetime": 5665
+    },
+    {
+        "episode": 360,
+        "step": 152,
+        "reward": 132.0,
+        "lifetime": 2145
+    },
+    {
+        "episode": 361,
+        "step": 263,
+        "reward": 248.0,
+        "lifetime": 4125
+    },
+    {
+        "episode": 362,
+        "step": 2246,
+        "reward": 2122.0,
+        "lifetime": 29480
+    },
+    {
+        "episode": 363,
+        "step": 405,
+        "reward": 328.0,
+        "lifetime": 4940
+    },
+    {
+        "episode": 364,
+        "step": 2369,
+        "reward": 2201.0,
+        "lifetime": 31100
+    },
+    {
+        "episode": 365,
+        "step": 148,
+        "reward": 145.0,
+        "lifetime": 2520
+    },
+    {
+        "episode": 366,
+        "step": 422,
+        "reward": 402.0,
+        "lifetime": 5755
+    },
+    {
+        "episode": 367,
+        "step": 103,
+        "reward": 100.0,
+        "lifetime": 1790
+    },
+    {
+        "episode": 368,
+        "step": 836,
+        "reward": 751.0,
+        "lifetime": 10785
+    },
+    {
+        "episode": 369,
+        "step": 763,
+        "reward": 727.0,
+        "lifetime": 11150
+    },
+    {
+        "episode": 370,
+        "step": 1019,
+        "reward": 955.0,
+        "lifetime": 14845
+    },
+    {
+        "episode": 371,
+        "step": 1114,
+        "reward": 1014.0,
+        "lifetime": 15020
+    },
+    {
+        "episode": 372,
+        "step": 548,
+        "reward": 513.0,
+        "lifetime": 8075
+    },
+    {
+        "episode": 373,
+        "step": 1090,
+        "reward": 1014.0,
+        "lifetime": 15125
+    },
+    {
+        "episode": 374,
+        "step": 1898,
+        "reward": 1796.0,
+        "lifetime": 26215
+    },
+    {
+        "episode": 375,
+        "step": 4493,
+        "reward": 4217.0,
+        "lifetime": 63550
+    },
+    {
+        "episode": 376,
+        "step": 994,
+        "reward": 937.0,
+        "lifetime": 14340
+    },
+    {
+        "episode": 377,
+        "step": 2327,
+        "reward": 2155.0,
+        "lifetime": 33765
+    },
+    {
+        "episode": 378,
+        "step": 3467,
+        "reward": 3260.0,
+        "lifetime": 47400
+    },
+    {
+        "episode": 379,
+        "step": 1682,
+        "reward": 1578.0,
+        "lifetime": 24680
+    },
+    {
+        "episode": 380,
+        "step": 3112,
+        "reward": 2951.0,
+        "lifetime": 45645
+    },
+    {
+        "episode": 381,
+        "step": 468,
+        "reward": 438.0,
+        "lifetime": 6260
+    },
+    {
+        "episode": 382,
+        "step": 1362,
+        "reward": 1280.0,
+        "lifetime": 18845
+    },
+    {
+        "episode": 383,
+        "step": 4200,
+        "reward": 3924.0,
+        "lifetime": 58420
+    },
+    {
+        "episode": 384,
+        "step": 882,
+        "reward": 836.0,
+        "lifetime": 12430
+    },
+    {
+        "episode": 385,
+        "step": 435,
+        "reward": 376.0,
+        "lifetime": 5610
+    },
+    {
+        "episode": 386,
+        "step": 16,
+        "reward": 11.0,
+        "lifetime": 260
+    },
+    {
+        "episode": 387,
+        "step": 97,
+        "reward": 82.0,
+        "lifetime": 1490
+    },
+    {
+        "episode": 388,
+        "step": 843,
+        "reward": 792.0,
+        "lifetime": 12790
+    },
+    {
+        "episode": 389,
+        "step": 908,
+        "reward": 868.0,
+        "lifetime": 12540
+    },
+    {
+        "episode": 390,
+        "step": 441,
+        "reward": 412.0,
+        "lifetime": 6175
+    },
+    {
+        "episode": 391,
+        "step": 1586,
+        "reward": 1503.0,
+        "lifetime": 22080
+    },
+    {
+        "episode": 392,
+        "step": 107,
+        "reward": 103.0,
+        "lifetime": 1715
+    },
+    {
+        "episode": 393,
+        "step": 3886,
+        "reward": 3661.0,
+        "lifetime": 54360
+    },
+    {
+        "episode": 394,
+        "step": 640,
+        "reward": 608.0,
+        "lifetime": 9090
+    },
+    {
+        "episode": 395,
+        "step": 2210,
+        "reward": 2111.0,
+        "lifetime": 31820
+    },
+    {
+        "episode": 396,
+        "step": 351,
+        "reward": 333.0,
+        "lifetime": 5175
+    },
+    {
+        "episode": 397,
+        "step": 329,
+        "reward": 304.0,
+        "lifetime": 4070
+    },
+    {
+        "episode": 398,
+        "step": 14,
+        "reward": 13.0,
+        "lifetime": 170
+    },
+    {
+        "episode": 399,
+        "step": 1667,
+        "reward": 1566.0,
+        "lifetime": 23735
+    },
+    {
+        "episode": 400,
+        "step": 1440,
+        "reward": 1337.0,
+        "lifetime": 19690
+    },
+    {
+        "episode": 401,
+        "step": 2548,
+        "reward": 2377.0,
+        "lifetime": 34310
+    },
+    {
+        "episode": 402,
+        "step": 230,
+        "reward": 213.0,
+        "lifetime": 2700
+    },
+    {
+        "episode": 403,
+        "step": 1002,
+        "reward": 925.0,
+        "lifetime": 13665
+    },
+    {
+        "episode": 404,
+        "step": 2297,
+        "reward": 2142.0,
+        "lifetime": 30795
+    },
+    {
+        "episode": 405,
+        "step": 541,
+        "reward": 448.0,
+        "lifetime": 6595
+    },
+    {
+        "episode": 406,
+        "step": 2014,
+        "reward": 1861.0,
+        "lifetime": 29130
+    },
+    {
+        "episode": 407,
+        "step": 94,
+        "reward": 90.0,
+        "lifetime": 1260
+    },
+    {
+        "episode": 408,
+        "step": 1644,
+        "reward": 1541.0,
+        "lifetime": 23150
+    },
+    {
+        "episode": 409,
+        "step": 700,
+        "reward": 670.0,
+        "lifetime": 9380
+    },
+    {
+        "episode": 410,
+        "step": 2602,
+        "reward": 2428.0,
+        "lifetime": 36420
+    },
+    {
+        "episode": 411,
+        "step": 434,
+        "reward": 406.0,
+        "lifetime": 6125
+    },
+    {
+        "episode": 412,
+        "step": 1719,
+        "reward": 1594.0,
+        "lifetime": 24760
+    },
+    {
+        "episode": 413,
+        "step": 1032,
+        "reward": 965.0,
+        "lifetime": 14730
+    },
+    {
+        "episode": 414,
+        "step": 363,
+        "reward": 342.0,
+        "lifetime": 5435
+    },
+    {
+        "episode": 415,
+        "step": 1700,
+        "reward": 1602.0,
+        "lifetime": 24405
+    },
+    {
+        "episode": 416,
+        "step": 1313,
+        "reward": 1249.0,
+        "lifetime": 18390
+    },
+    {
+        "episode": 417,
+        "step": 138,
+        "reward": 125.0,
+        "lifetime": 1890
+    },
+    {
+        "episode": 418,
+        "step": 3971,
+        "reward": 3757.0,
+        "lifetime": 57030
+    },
+    {
+        "episode": 419,
+        "step": 1275,
+        "reward": 1205.0,
+        "lifetime": 17295
+    },
+    {
+        "episode": 420,
+        "step": 463,
+        "reward": 439.0,
+        "lifetime": 6785
+    },
+    {
+        "episode": 421,
+        "step": 346,
+        "reward": 315.0,
+        "lifetime": 4750
+    },
+    {
+        "episode": 422,
+        "step": 986,
+        "reward": 936.0,
+        "lifetime": 14015
+    },
+    {
+        "episode": 423,
+        "step": 130,
+        "reward": 117.0,
+        "lifetime": 1625
+    },
+    {
+        "episode": 424,
+        "step": 43,
+        "reward": 32.0,
+        "lifetime": 520
+    },
+    {
+        "episode": 425,
+        "step": 392,
+        "reward": 378.0,
+        "lifetime": 5755
+    },
+    {
+        "episode": 426,
+        "step": 297,
+        "reward": 280.0,
+        "lifetime": 4140
+    },
+    {
+        "episode": 427,
+        "step": 67,
+        "reward": 39.0,
+        "lifetime": 715
+    },
+    {
+        "episode": 428,
+        "step": 1134,
+        "reward": 1049.0,
+        "lifetime": 15745
+    },
+    {
+        "episode": 429,
+        "step": 1512,
+        "reward": 1415.0,
+        "lifetime": 21400
+    },
+    {
+        "episode": 430,
+        "step": 992,
+        "reward": 928.0,
+        "lifetime": 14130
+    },
+    {
+        "episode": 431,
+        "step": 5177,
+        "reward": 4872.0,
+        "lifetime": 74350
+    },
+    {
+        "episode": 432,
+        "step": 817,
+        "reward": 781.0,
+        "lifetime": 11770
+    },
+    {
+        "episode": 433,
+        "step": 1142,
+        "reward": 1054.0,
+        "lifetime": 16140
+    },
+    {
+        "episode": 434,
+        "step": 1321,
+        "reward": 1248.0,
+        "lifetime": 18595
+    },
+    {
+        "episode": 435,
+        "step": 792,
+        "reward": 736.0,
+        "lifetime": 10360
+    },
+    {
+        "episode": 436,
+        "step": 78,
+        "reward": 72.0,
+        "lifetime": 1030
+    },
+    {
+        "episode": 437,
+        "step": 846,
+        "reward": 787.0,
+        "lifetime": 11185
+    },
+    {
+        "episode": 438,
+        "step": 3055,
+        "reward": 2876.0,
+        "lifetime": 41180
+    },
+    {
+        "episode": 439,
+        "step": 399,
+        "reward": 371.0,
+        "lifetime": 5015
+    },
+    {
+        "episode": 440,
+        "step": 416,
+        "reward": 377.0,
+        "lifetime": 5845
+    },
+    {
+        "episode": 441,
+        "step": 1021,
+        "reward": 968.0,
+        "lifetime": 14270
+    },
+    {
+        "episode": 442,
+        "step": 1590,
+        "reward": 1476.0,
+        "lifetime": 22485
+    },
+    {
+        "episode": 443,
+        "step": 248,
+        "reward": 234.0,
+        "lifetime": 3380
+    },
+    {
+        "episode": 444,
+        "step": 573,
+        "reward": 549.0,
+        "lifetime": 7935
+    },
+    {
+        "episode": 445,
+        "step": 4605,
+        "reward": 4378.0,
+        "lifetime": 63580
+    },
+    {
+        "episode": 446,
+        "step": 1047,
+        "reward": 983.0,
+        "lifetime": 13495
+    },
+    {
+        "episode": 447,
+        "step": 64,
+        "reward": 45.0,
+        "lifetime": 730
+    },
+    {
+        "episode": 448,
+        "step": 969,
+        "reward": 920.0,
+        "lifetime": 13620
+    },
+    {
+        "episode": 449,
+        "step": 1419,
+        "reward": 1351.0,
+        "lifetime": 21530
+    },
+    {
+        "episode": 450,
+        "step": 3370,
+        "reward": 3201.0,
+        "lifetime": 48620
+    },
+    {
+        "episode": 451,
+        "step": 198,
+        "reward": 191.0,
+        "lifetime": 2645
+    },
+    {
+        "episode": 452,
+        "step": 912,
+        "reward": 870.0,
+        "lifetime": 13525
+    },
+    {
+        "episode": 453,
+        "step": 98,
+        "reward": 84.0,
+        "lifetime": 1495
+    },
+    {
+        "episode": 454,
+        "step": 896,
+        "reward": 850.0,
+        "lifetime": 12585
+    },
+    {
+        "episode": 455,
+        "step": 1355,
+        "reward": 1270.0,
+        "lifetime": 19225
+    },
+    {
+        "episode": 456,
+        "step": 2860,
+        "reward": 2690.0,
+        "lifetime": 40370
+    },
+    {
+        "episode": 457,
+        "step": 1207,
+        "reward": 1136.0,
+        "lifetime": 17245
+    },
+    {
+        "episode": 458,
+        "step": 3592,
+        "reward": 3344.0,
+        "lifetime": 48865
+    },
+    {
+        "episode": 459,
+        "step": 2472,
+        "reward": 2325.0,
+        "lifetime": 34265
+    },
+    {
+        "episode": 460,
+        "step": 796,
+        "reward": 760.0,
+        "lifetime": 11885
+    },
+    {
+        "episode": 461,
+        "step": 151,
+        "reward": 128.0,
+        "lifetime": 2095
+    },
+    {
+        "episode": 462,
+        "step": 1376,
+        "reward": 1280.0,
+        "lifetime": 19215
+    },
+    {
+        "episode": 463,
+        "step": 1214,
+        "reward": 1151.0,
+        "lifetime": 16180
+    },
+    {
+        "episode": 464,
+        "step": 1052,
+        "reward": 1005.0,
+        "lifetime": 14370
+    },
+    {
+        "episode": 465,
+        "step": 1278,
+        "reward": 1179.0,
+        "lifetime": 18205
+    },
+    {
+        "episode": 466,
+        "step": 380,
+        "reward": 358.0,
+        "lifetime": 5275
+    },
+    {
+        "episode": 467,
+        "step": 1720,
+        "reward": 1635.0,
+        "lifetime": 24780
+    },
+    {
+        "episode": 468,
+        "step": 1388,
+        "reward": 1301.0,
+        "lifetime": 18605
+    },
+    {
+        "episode": 469,
+        "step": 735,
+        "reward": 694.0,
+        "lifetime": 9530
+    },
+    {
+        "episode": 470,
+        "step": 302,
+        "reward": 284.0,
+        "lifetime": 4365
+    },
+    {
+        "episode": 471,
+        "step": 2812,
+        "reward": 2659.0,
+        "lifetime": 39465
+    },
+    {
+        "episode": 472,
+        "step": 22,
+        "reward": 19.0,
+        "lifetime": 360
+    },
+    {
+        "episode": 473,
+        "step": 850,
+        "reward": 791.0,
+        "lifetime": 11025
+    },
+    {
+        "episode": 474,
+        "step": 891,
+        "reward": 836.0,
+        "lifetime": 13270
+    },
+    {
+        "episode": 475,
+        "step": 381,
+        "reward": 358.0,
+        "lifetime": 5430
+    },
+    {
+        "episode": 476,
+        "step": 31,
+        "reward": 29.0,
+        "lifetime": 575
+    },
+    {
+        "episode": 477,
+        "step": 1235,
+        "reward": 1162.0,
+        "lifetime": 17135
+    },
+    {
+        "episode": 478,
+        "step": 1054,
+        "reward": 964.0,
+        "lifetime": 14665
+    },
+    {
+        "episode": 479,
+        "step": 5090,
+        "reward": 4840.0,
+        "lifetime": 71445
+    },
+    {
+        "episode": 480,
+        "step": 1099,
+        "reward": 1012.0,
+        "lifetime": 16085
+    },
+    {
+        "episode": 481,
+        "step": 749,
+        "reward": 696.0,
+        "lifetime": 11090
+    },
+    {
+        "episode": 482,
+        "step": 1875,
+        "reward": 1786.0,
+        "lifetime": 25860
+    },
+    {
+        "episode": 483,
+        "step": 789,
+        "reward": 733.0,
+        "lifetime": 10295
+    },
+    {
+        "episode": 484,
+        "step": 539,
+        "reward": 509.0,
+        "lifetime": 7365
+    },
+    {
+        "episode": 485,
+        "step": 590,
+        "reward": 560.0,
+        "lifetime": 7800
+    },
+    {
+        "episode": 486,
+        "step": 1512,
+        "reward": 1424.0,
+        "lifetime": 20635
+    },
+    {
+        "episode": 487,
+        "step": 516,
+        "reward": 480.0,
+        "lifetime": 7290
+    },
+    {
+        "episode": 488,
+        "step": 3459,
+        "reward": 3255.0,
+        "lifetime": 51615
+    },
+    {
+        "episode": 489,
+        "step": 254,
+        "reward": 241.0,
+        "lifetime": 3390
+    },
+    {
+        "episode": 490,
+        "step": 627,
+        "reward": 589.0,
+        "lifetime": 9140
+    },
+    {
+        "episode": 491,
+        "step": 120,
+        "reward": 115.0,
+        "lifetime": 1805
+    },
+    {
+        "episode": 492,
+        "step": 1309,
+        "reward": 1236.0,
+        "lifetime": 17810
+    },
+    {
+        "episode": 493,
+        "step": 971,
+        "reward": 808.0,
+        "lifetime": 13060
+    },
+    {
+        "episode": 494,
+        "step": 965,
+        "reward": 916.0,
+        "lifetime": 13370
+    },
+    {
+        "episode": 495,
+        "step": 686,
+        "reward": 640.0,
+        "lifetime": 9930
+    },
+    {
+        "episode": 496,
+        "step": 59,
+        "reward": 21.0,
+        "lifetime": 315
+    },
+    {
+        "episode": 497,
+        "step": 611,
+        "reward": 564.0,
+        "lifetime": 8890
+    },
+    {
+        "episode": 498,
+        "step": 464,
+        "reward": 431.0,
+        "lifetime": 6615
+    },
+    {
+        "episode": 499,
+        "step": 463,
+        "reward": 398.0,
+        "lifetime": 6540
+    },
+    {
+        "episode": 500,
+        "step": 315,
+        "reward": 284.0,
+        "lifetime": 4140
+    },
+    {
+        "episode": 501,
+        "step": 734,
+        "reward": 674.0,
+        "lifetime": 9265
+    },
+    {
+        "episode": 502,
+        "step": 472,
+        "reward": 410.0,
+        "lifetime": 6415
+    },
+    {
+        "episode": 503,
+        "step": 105,
+        "reward": 100.0,
+        "lifetime": 1740
+    },
+    {
+        "episode": 504,
+        "step": 1193,
+        "reward": 1128.0,
+        "lifetime": 16680
+    },
+    {
+        "episode": 505,
+        "step": 359,
+        "reward": 327.0,
+        "lifetime": 4570
+    },
+    {
+        "episode": 506,
+        "step": 99,
+        "reward": 86.0,
+        "lifetime": 1665
+    },
+    {
+        "episode": 507,
+        "step": 892,
+        "reward": 827.0,
+        "lifetime": 12080
+    },
+    {
+        "episode": 508,
+        "step": 1209,
+        "reward": 1142.0,
+        "lifetime": 17370
+    },
+    {
+        "episode": 509,
+        "step": 1330,
+        "reward": 1246.0,
+        "lifetime": 18455
+    },
+    {
+        "episode": 510,
+        "step": 1508,
+        "reward": 1424.0,
+        "lifetime": 20445
+    },
+    {
+        "episode": 511,
+        "step": 4310,
+        "reward": 4074.0,
+        "lifetime": 61330
+    },
+    {
+        "episode": 512,
+        "step": 948,
+        "reward": 888.0,
+        "lifetime": 12900
+    },
+    {
+        "episode": 513,
+        "step": 1724,
+        "reward": 1616.0,
+        "lifetime": 24040
+    },
+    {
+        "episode": 514,
+        "step": 1075,
+        "reward": 1029.0,
+        "lifetime": 15910
+    },
+    {
+        "episode": 515,
+        "step": 366,
+        "reward": 329.0,
+        "lifetime": 4995
+    },
+    {
+        "episode": 516,
+        "step": 990,
+        "reward": 902.0,
+        "lifetime": 12955
+    },
+    {
+        "episode": 517,
+        "step": 300,
+        "reward": 284.0,
+        "lifetime": 4240
+    },
+    {
+        "episode": 518,
+        "step": 5506,
+        "reward": 5209.0,
+        "lifetime": 76950
+    },
+    {
+        "episode": 519,
+        "step": 1549,
+        "reward": 1449.0,
+        "lifetime": 22265
+    },
+    {
+        "episode": 520,
+        "step": 1712,
+        "reward": 1605.0,
+        "lifetime": 24155
+    },
+    {
+        "episode": 521,
+        "step": 1874,
+        "reward": 1764.0,
+        "lifetime": 26130
+    },
+    {
+        "episode": 522,
+        "step": 2845,
+        "reward": 2685.0,
+        "lifetime": 40425
+    },
+    {
+        "episode": 523,
+        "step": 1121,
+        "reward": 1056.0,
+        "lifetime": 14955
+    },
+    {
+        "episode": 524,
+        "step": 605,
+        "reward": 568.0,
+        "lifetime": 8500
+    },
+    {
+        "episode": 525,
+        "step": 4606,
+        "reward": 4285.0,
+        "lifetime": 64395
+    },
+    {
+        "episode": 526,
+        "step": 684,
+        "reward": 651.0,
+        "lifetime": 10085
+    },
+    {
+        "episode": 527,
+        "step": 430,
+        "reward": 393.0,
+        "lifetime": 5470
+    },
+    {
+        "episode": 528,
+        "step": 2022,
+        "reward": 1915.0,
+        "lifetime": 27605
+    },
+    {
+        "episode": 529,
+        "step": 314,
+        "reward": 288.0,
+        "lifetime": 4730
+    },
+    {
+        "episode": 530,
+        "step": 116,
+        "reward": 107.0,
+        "lifetime": 1580
+    },
+    {
+        "episode": 531,
+        "step": 181,
+        "reward": 160.0,
+        "lifetime": 2280
+    },
+    {
+        "episode": 532,
+        "step": 1567,
+        "reward": 1480.0,
+        "lifetime": 22945
+    },
+    {
+        "episode": 533,
+        "step": 285,
+        "reward": 270.0,
+        "lifetime": 3895
+    },
+    {
+        "episode": 534,
+        "step": 524,
+        "reward": 501.0,
+        "lifetime": 7755
+    },
+    {
+        "episode": 535,
+        "step": 359,
+        "reward": 339.0,
+        "lifetime": 5300
+    },
+    {
+        "episode": 536,
+        "step": 1393,
+        "reward": 1312.0,
+        "lifetime": 19380
+    },
+    {
+        "episode": 537,
+        "step": 310,
+        "reward": 282.0,
+        "lifetime": 4380
+    },
+    {
+        "episode": 538,
+        "step": 258,
+        "reward": 250.0,
+        "lifetime": 3520
+    },
+    {
+        "episode": 539,
+        "step": 362,
+        "reward": 337.0,
+        "lifetime": 4285
+    },
+    {
+        "episode": 540,
+        "step": 808,
+        "reward": 757.0,
+        "lifetime": 11335
+    },
+    {
+        "episode": 541,
+        "step": 672,
+        "reward": 638.0,
+        "lifetime": 9080
+    },
+    {
+        "episode": 542,
+        "step": 50,
+        "reward": 34.0,
+        "lifetime": 420
+    },
+    {
+        "episode": 543,
+        "step": 606,
+        "reward": 560.0,
+        "lifetime": 7865
+    },
+    {
+        "episode": 544,
+        "step": 561,
+        "reward": 516.0,
+        "lifetime": 7675
+    },
+    {
+        "episode": 545,
+        "step": 1242,
+        "reward": 1178.0,
+        "lifetime": 17750
+    },
+    {
+        "episode": 546,
+        "step": 1752,
+        "reward": 1658.0,
+        "lifetime": 25170
+    },
+    {
+        "episode": 547,
+        "step": 936,
+        "reward": 893.0,
+        "lifetime": 13560
+    },
+    {
+        "episode": 548,
+        "step": 1743,
+        "reward": 1612.0,
+        "lifetime": 23425
+    },
+    {
+        "episode": 549,
+        "step": 566,
+        "reward": 506.0,
+        "lifetime": 8240
+    },
+    {
+        "episode": 550,
+        "step": 836,
+        "reward": 796.0,
+        "lifetime": 12015
+    },
+    {
+        "episode": 551,
+        "step": 1129,
+        "reward": 1063.0,
+        "lifetime": 15620
+    },
+    {
+        "episode": 552,
+        "step": 2826,
+        "reward": 2692.0,
+        "lifetime": 40255
+    },
+    {
+        "episode": 553,
+        "step": 1866,
+        "reward": 1770.0,
+        "lifetime": 26520
+    },
+    {
+        "episode": 554,
+        "step": 1266,
+        "reward": 1177.0,
+        "lifetime": 16280
+    },
+    {
+        "episode": 555,
+        "step": 768,
+        "reward": 735.0,
+        "lifetime": 11310
+    },
+    {
+        "episode": 556,
+        "step": 1033,
+        "reward": 972.0,
+        "lifetime": 13785
+    },
+    {
+        "episode": 557,
+        "step": 237,
+        "reward": 226.0,
+        "lifetime": 2935
+    },
+    {
+        "episode": 558,
+        "step": 1937,
+        "reward": 1843.0,
+        "lifetime": 28780
+    },
+    {
+        "episode": 559,
+        "step": 1188,
+        "reward": 1116.0,
+        "lifetime": 16450
+    },
+    {
+        "episode": 560,
+        "step": 895,
+        "reward": 839.0,
+        "lifetime": 12550
+    },
+    {
+        "episode": 561,
+        "step": 402,
+        "reward": 353.0,
+        "lifetime": 5160
+    },
+    {
+        "episode": 562,
+        "step": 614,
+        "reward": 568.0,
+        "lifetime": 7850
+    },
+    {
+        "episode": 563,
+        "step": 2734,
+        "reward": 2560.0,
+        "lifetime": 37725
+    },
+    {
+        "episode": 564,
+        "step": 899,
+        "reward": 856.0,
+        "lifetime": 12445
+    },
+    {
+        "episode": 565,
+        "step": 5522,
+        "reward": 5153.0,
+        "lifetime": 78485
+    },
+    {
+        "episode": 566,
+        "step": 422,
+        "reward": 395.0,
+        "lifetime": 6140
+    },
+    {
+        "episode": 567,
+        "step": 868,
+        "reward": 810.0,
+        "lifetime": 11290
+    },
+    {
+        "episode": 568,
+        "step": 2216,
+        "reward": 2085.0,
+        "lifetime": 30675
+    },
+    {
+        "episode": 569,
+        "step": 1552,
+        "reward": 1460.0,
+        "lifetime": 21290
+    },
+    {
+        "episode": 570,
+        "step": 1254,
+        "reward": 1192.0,
+        "lifetime": 18835
+    },
+    {
+        "episode": 571,
+        "step": 2588,
+        "reward": 2436.0,
+        "lifetime": 35380
+    },
+    {
+        "episode": 572,
+        "step": 1818,
+        "reward": 1651.0,
+        "lifetime": 24745
+    },
+    {
+        "episode": 573,
+        "step": 511,
+        "reward": 481.0,
+        "lifetime": 7040
+    },
+    {
+        "episode": 574,
+        "step": 1410,
+        "reward": 1344.0,
+        "lifetime": 18605
+    },
+    {
+        "episode": 575,
+        "step": 3531,
+        "reward": 3336.0,
+        "lifetime": 47950
+    },
+    {
+        "episode": 576,
+        "step": 937,
+        "reward": 870.0,
+        "lifetime": 12280
+    },
+    {
+        "episode": 577,
+        "step": 161,
+        "reward": 150.0,
+        "lifetime": 2400
+    },
+    {
+        "episode": 578,
+        "step": 1060,
+        "reward": 990.0,
+        "lifetime": 14340
+    },
+    {
+        "episode": 579,
+        "step": 2359,
+        "reward": 2217.0,
+        "lifetime": 31555
+    },
+    {
+        "episode": 580,
+        "step": 597,
+        "reward": 562.0,
+        "lifetime": 8285
+    },
+    {
+        "episode": 581,
+        "step": 195,
+        "reward": 185.0,
+        "lifetime": 2735
+    },
+    {
+        "episode": 582,
+        "step": 500,
+        "reward": 410.0,
+        "lifetime": 7325
+    },
+    {
+        "episode": 583,
+        "step": 116,
+        "reward": 110.0,
+        "lifetime": 1865
+    },
+    {
+        "episode": 584,
+        "step": 2469,
+        "reward": 2311.0,
+        "lifetime": 33515
+    },
+    {
+        "episode": 585,
+        "step": 1710,
+        "reward": 1593.0,
+        "lifetime": 24250
+    },
+    {
+        "episode": 586,
+        "step": 771,
+        "reward": 715.0,
+        "lifetime": 10715
+    },
+    {
+        "episode": 587,
+        "step": 371,
+        "reward": 335.0,
+        "lifetime": 4605
+    },
+    {
+        "episode": 588,
+        "step": 387,
+        "reward": 322.0,
+        "lifetime": 4655
+    },
+    {
+        "episode": 589,
+        "step": 206,
+        "reward": 192.0,
+        "lifetime": 2650
+    },
+    {
+        "episode": 590,
+        "step": 397,
+        "reward": 380.0,
+        "lifetime": 6360
+    },
+    {
+        "episode": 591,
+        "step": 360,
+        "reward": 334.0,
+        "lifetime": 4445
+    },
+    {
+        "episode": 592,
+        "step": 2221,
+        "reward": 2086.0,
+        "lifetime": 32370
+    },
+    {
+        "episode": 593,
+        "step": 2781,
+        "reward": 2622.0,
+        "lifetime": 38660
+    },
+    {
+        "episode": 594,
+        "step": 1793,
+        "reward": 1676.0,
+        "lifetime": 25875
+    },
+    {
+        "episode": 595,
+        "step": 1719,
+        "reward": 1649.0,
+        "lifetime": 25635
+    },
+    {
+        "episode": 596,
+        "step": 910,
+        "reward": 860.0,
+        "lifetime": 13515
+    },
+    {
+        "episode": 597,
+        "step": 1028,
+        "reward": 971.0,
+        "lifetime": 15070
+    },
+    {
+        "episode": 598,
+        "step": 612,
+        "reward": 595.0,
+        "lifetime": 8400
+    },
+    {
+        "episode": 599,
+        "step": 1177,
+        "reward": 1080.0,
+        "lifetime": 16455
+    },
+    {
+        "episode": 600,
+        "step": 481,
+        "reward": 445.0,
+        "lifetime": 6975
+    },
+    {
+        "episode": 601,
+        "step": 1982,
+        "reward": 1887.0,
+        "lifetime": 29310
+    },
+    {
+        "episode": 602,
+        "step": 666,
+        "reward": 563.0,
+        "lifetime": 8040
+    },
+    {
+        "episode": 603,
+        "step": 1692,
+        "reward": 1585.0,
+        "lifetime": 24560
+    },
+    {
+        "episode": 604,
+        "step": 2412,
+        "reward": 2253.0,
+        "lifetime": 31915
+    },
+    {
+        "episode": 605,
+        "step": 5827,
+        "reward": 5449.0,
+        "lifetime": 79690
+    },
+    {
+        "episode": 606,
+        "step": 2572,
+        "reward": 2452.0,
+        "lifetime": 37565
+    },
+    {
+        "episode": 607,
+        "step": 825,
+        "reward": 771.0,
+        "lifetime": 10815
+    },
+    {
+        "episode": 608,
+        "step": 736,
+        "reward": 665.0,
+        "lifetime": 10490
+    },
+    {
+        "episode": 609,
+        "step": 429,
+        "reward": 401.0,
+        "lifetime": 6165
+    },
+    {
+        "episode": 610,
+        "step": 279,
+        "reward": 261.0,
+        "lifetime": 3935
+    },
+    {
+        "episode": 611,
+        "step": 704,
+        "reward": 660.0,
+        "lifetime": 9065
+    },
+    {
+        "episode": 612,
+        "step": 2134,
+        "reward": 2027.0,
+        "lifetime": 30160
+    },
+    {
+        "episode": 613,
+        "step": 315,
+        "reward": 299.0,
+        "lifetime": 4265
+    },
+    {
+        "episode": 614,
+        "step": 1115,
+        "reward": 1055.0,
+        "lifetime": 16350
+    },
+    {
+        "episode": 615,
+        "step": 196,
+        "reward": 184.0,
+        "lifetime": 3060
+    },
+    {
+        "episode": 616,
+        "step": 3438,
+        "reward": 3242.0,
+        "lifetime": 47755
+    },
+    {
+        "episode": 617,
+        "step": 26,
+        "reward": 22.0,
+        "lifetime": 340
+    },
+    {
+        "episode": 618,
+        "step": 1890,
+        "reward": 1791.0,
+        "lifetime": 27260
+    },
+    {
+        "episode": 619,
+        "step": 159,
+        "reward": 150.0,
+        "lifetime": 2330
+    },
+    {
+        "episode": 620,
+        "step": 166,
+        "reward": 157.0,
+        "lifetime": 2225
+    },
+    {
+        "episode": 621,
+        "step": 1345,
+        "reward": 1291.0,
+        "lifetime": 19180
+    },
+    {
+        "episode": 622,
+        "step": 849,
+        "reward": 776.0,
+        "lifetime": 12525
+    },
+    {
+        "episode": 623,
+        "step": 3459,
+        "reward": 3272.0,
+        "lifetime": 49205
+    },
+    {
+        "episode": 624,
+        "step": 1547,
+        "reward": 1439.0,
+        "lifetime": 21065
+    },
+    {
+        "episode": 625,
+        "step": 4787,
+        "reward": 4471.0,
+        "lifetime": 66230
+    },
+    {
+        "episode": 626,
+        "step": 447,
+        "reward": 418.0,
+        "lifetime": 6525
+    },
+    {
+        "episode": 627,
+        "step": 4207,
+        "reward": 3997.0,
+        "lifetime": 60390
+    },
+    {
+        "episode": 628,
+        "step": 1200,
+        "reward": 1120.0,
+        "lifetime": 16620
+    },
+    {
+        "episode": 629,
+        "step": 567,
+        "reward": 535.0,
+        "lifetime": 7640
+    },
+    {
+        "episode": 630,
+        "step": 777,
+        "reward": 740.0,
+        "lifetime": 11905
+    },
+    {
+        "episode": 631,
+        "step": 1738,
+        "reward": 1636.0,
+        "lifetime": 23480
+    },
+    {
+        "episode": 632,
+        "step": 2701,
+        "reward": 2531.0,
+        "lifetime": 37825
+    },
+    {
+        "episode": 633,
+        "step": 63,
+        "reward": 55.0,
+        "lifetime": 880
+    },
+    {
+        "episode": 634,
+        "step": 1436,
+        "reward": 1367.0,
+        "lifetime": 20560
+    },
+    {
+        "episode": 635,
+        "step": 1579,
+        "reward": 1484.0,
+        "lifetime": 22755
+    },
+    {
+        "episode": 636,
+        "step": 2069,
+        "reward": 1946.0,
+        "lifetime": 28640
+    },
+    {
+        "episode": 637,
+        "step": 346,
+        "reward": 326.0,
+        "lifetime": 4695
+    },
+    {
+        "episode": 638,
+        "step": 1730,
+        "reward": 1632.0,
+        "lifetime": 25075
+    },
+    {
+        "episode": 639,
+        "step": 1304,
+        "reward": 1227.0,
+        "lifetime": 18035
+    },
+    {
+        "episode": 640,
+        "step": 1394,
+        "reward": 1292.0,
+        "lifetime": 19610
+    },
+    {
+        "episode": 641,
+        "step": 111,
+        "reward": 108.0,
+        "lifetime": 1550
+    },
+    {
+        "episode": 642,
+        "step": 1589,
+        "reward": 1500.0,
+        "lifetime": 21895
+    },
+    {
+        "episode": 643,
+        "step": 2722,
+        "reward": 2565.0,
+        "lifetime": 38145
+    },
+    {
+        "episode": 644,
+        "step": 547,
+        "reward": 513.0,
+        "lifetime": 7295
+    },
+    {
+        "episode": 645,
+        "step": 399,
+        "reward": 350.0,
+        "lifetime": 5070
+    },
+    {
+        "episode": 646,
+        "step": 3252,
+        "reward": 3050.0,
+        "lifetime": 46840
+    },
+    {
+        "episode": 647,
+        "step": 1467,
+        "reward": 1381.0,
+        "lifetime": 20270
+    },
+    {
+        "episode": 648,
+        "step": 1238,
+        "reward": 1170.0,
+        "lifetime": 17085
+    },
+    {
+        "episode": 649,
+        "step": 661,
+        "reward": 603.0,
+        "lifetime": 8980
+    },
+    {
+        "episode": 650,
+        "step": 461,
+        "reward": 425.0,
+        "lifetime": 6330
+    },
+    {
+        "episode": 651,
+        "step": 1112,
+        "reward": 1047.0,
+        "lifetime": 15540
+    },
+    {
+        "episode": 652,
+        "step": 1125,
+        "reward": 1071.0,
+        "lifetime": 14370
+    },
+    {
+        "episode": 653,
+        "step": 2286,
+        "reward": 2162.0,
+        "lifetime": 32445
+    },
+    {
+        "episode": 654,
+        "step": 1823,
+        "reward": 1709.0,
+        "lifetime": 24770
+    },
+    {
+        "episode": 655,
+        "step": 292,
+        "reward": 271.0,
+        "lifetime": 4820
+    },
+    {
+        "episode": 656,
+        "step": 1482,
+        "reward": 1410.0,
+        "lifetime": 20585
+    },
+    {
+        "episode": 657,
+        "step": 1268,
+        "reward": 1192.0,
+        "lifetime": 18960
+    },
+    {
+        "episode": 658,
+        "step": 107,
+        "reward": 96.0,
+        "lifetime": 1530
+    },
+    {
+        "episode": 659,
+        "step": 630,
+        "reward": 599.0,
+        "lifetime": 9435
+    },
+    {
+        "episode": 660,
+        "step": 247,
+        "reward": 232.0,
+        "lifetime": 3430
+    },
+    {
+        "episode": 661,
+        "step": 832,
+        "reward": 787.0,
+        "lifetime": 11835
+    },
+    {
+        "episode": 662,
+        "step": 936,
+        "reward": 890.0,
+        "lifetime": 14020
+    },
+    {
+        "episode": 663,
+        "step": 3522,
+        "reward": 3338.0,
+        "lifetime": 49240
+    },
+    {
+        "episode": 664,
+        "step": 432,
+        "reward": 388.0,
+        "lifetime": 5125
+    },
+    {
+        "episode": 665,
+        "step": 1217,
+        "reward": 1155.0,
+        "lifetime": 17280
+    },
+    {
+        "episode": 666,
+        "step": 2353,
+        "reward": 2210.0,
+        "lifetime": 33310
+    },
+    {
+        "episode": 667,
+        "step": 1638,
+        "reward": 1547.0,
+        "lifetime": 22015
+    },
+    {
+        "episode": 668,
+        "step": 671,
+        "reward": 635.0,
+        "lifetime": 9315
+    },
+    {
+        "episode": 669,
+        "step": 96,
+        "reward": 92.0,
+        "lifetime": 1570
+    },
+    {
+        "episode": 670,
+        "step": 1860,
+        "reward": 1745.0,
+        "lifetime": 26735
+    },
+    {
+        "episode": 671,
+        "step": 1769,
+        "reward": 1635.0,
+        "lifetime": 25395
+    },
+    {
+        "episode": 672,
+        "step": 294,
+        "reward": 274.0,
+        "lifetime": 4410
+    },
+    {
+        "episode": 673,
+        "step": 2490,
+        "reward": 2321.0,
+        "lifetime": 34875
+    },
+    {
+        "episode": 674,
+        "step": 3491,
+        "reward": 3292.0,
+        "lifetime": 49215
+    },
+    {
+        "episode": 675,
+        "step": 167,
+        "reward": 154.0,
+        "lifetime": 2455
+    },
+    {
+        "episode": 676,
+        "step": 585,
+        "reward": 550.0,
+        "lifetime": 8095
+    },
+    {
+        "episode": 677,
+        "step": 2987,
+        "reward": 2810.0,
+        "lifetime": 41925
+    },
+    {
+        "episode": 678,
+        "step": 193,
+        "reward": 187.0,
+        "lifetime": 2600
+    },
+    {
+        "episode": 679,
+        "step": 2652,
+        "reward": 2467.0,
+        "lifetime": 35835
+    },
+    {
+        "episode": 680,
+        "step": 255,
+        "reward": 231.0,
+        "lifetime": 3495
+    },
+    {
+        "episode": 681,
+        "step": 4240,
+        "reward": 4030.0,
+        "lifetime": 60255
+    },
+    {
+        "episode": 682,
+        "step": 41,
+        "reward": 37.0,
+        "lifetime": 670
+    },
+    {
+        "episode": 683,
+        "step": 78,
+        "reward": 75.0,
+        "lifetime": 1075
+    },
+    {
+        "episode": 684,
+        "step": 219,
+        "reward": 193.0,
+        "lifetime": 2890
+    },
+    {
+        "episode": 685,
+        "step": 4805,
+        "reward": 4527.0,
+        "lifetime": 66650
+    },
+    {
+        "episode": 686,
+        "step": 1204,
+        "reward": 1122.0,
+        "lifetime": 15920
+    },
+    {
+        "episode": 687,
+        "step": 370,
+        "reward": 357.0,
+        "lifetime": 4820
+    },
+    {
+        "episode": 688,
+        "step": 1299,
+        "reward": 1229.0,
+        "lifetime": 17745
+    },
+    {
+        "episode": 689,
+        "step": 1708,
+        "reward": 1610.0,
+        "lifetime": 24475
+    },
+    {
+        "episode": 690,
+        "step": 2475,
+        "reward": 2286.0,
+        "lifetime": 34250
+    },
+    {
+        "episode": 691,
+        "step": 94,
+        "reward": 92.0,
+        "lifetime": 1405
+    },
+    {
+        "episode": 692,
+        "step": 290,
+        "reward": 274.0,
+        "lifetime": 4595
+    },
+    {
+        "episode": 693,
+        "step": 1762,
+        "reward": 1643.0,
+        "lifetime": 24490
+    },
+    {
+        "episode": 694,
+        "step": 963,
+        "reward": 916.0,
+        "lifetime": 12740
+    },
+    {
+        "episode": 695,
+        "step": 457,
+        "reward": 422.0,
+        "lifetime": 6425
+    },
+    {
+        "episode": 696,
+        "step": 193,
+        "reward": 181.0,
+        "lifetime": 2240
+    },
+    {
+        "episode": 697,
+        "step": 77,
+        "reward": 68.0,
+        "lifetime": 1130
+    },
+    {
+        "episode": 698,
+        "step": 120,
+        "reward": 114.0,
+        "lifetime": 1875
+    },
+    {
+        "episode": 699,
+        "step": 1638,
+        "reward": 1558.0,
+        "lifetime": 24350
+    },
+    {
+        "episode": 700,
+        "step": 219,
+        "reward": 207.0,
+        "lifetime": 2560
+    },
+    {
+        "episode": 701,
+        "step": 78,
+        "reward": 73.0,
+        "lifetime": 1355
+    },
+    {
+        "episode": 702,
+        "step": 473,
+        "reward": 449.0,
+        "lifetime": 6860
+    },
+    {
+        "episode": 703,
+        "step": 429,
+        "reward": 408.0,
+        "lifetime": 5965
+    },
+    {
+        "episode": 704,
+        "step": 826,
+        "reward": 781.0,
+        "lifetime": 11960
+    },
+    {
+        "episode": 705,
+        "step": 215,
+        "reward": 202.0,
+        "lifetime": 2820
+    },
+    {
+        "episode": 706,
+        "step": 1450,
+        "reward": 1357.0,
+        "lifetime": 21020
+    },
+    {
+        "episode": 707,
+        "step": 1003,
+        "reward": 942.0,
+        "lifetime": 14015
+    },
+    {
+        "episode": 708,
+        "step": 701,
+        "reward": 637.0,
+        "lifetime": 10230
+    },
+    {
+        "episode": 709,
+        "step": 279,
+        "reward": 259.0,
+        "lifetime": 3455
+    },
+    {
+        "episode": 710,
+        "step": 2535,
+        "reward": 2409.0,
+        "lifetime": 34210
+    },
+    {
+        "episode": 711,
+        "step": 810,
+        "reward": 750.0,
+        "lifetime": 11030
+    },
+    {
+        "episode": 712,
+        "step": 110,
+        "reward": 100.0,
+        "lifetime": 1260
+    },
+    {
+        "episode": 713,
+        "step": 3249,
+        "reward": 2999.0,
+        "lifetime": 46940
+    },
+    {
+        "episode": 714,
+        "step": 63,
+        "reward": 54.0,
+        "lifetime": 760
+    },
+    {
+        "episode": 715,
+        "step": 3307,
+        "reward": 3092.0,
+        "lifetime": 46785
+    },
+    {
+        "episode": 716,
+        "step": 1168,
+        "reward": 1092.0,
+        "lifetime": 16075
+    },
+    {
+        "episode": 717,
+        "step": 2018,
+        "reward": 1907.0,
+        "lifetime": 27600
+    },
+    {
+        "episode": 718,
+        "step": 1841,
+        "reward": 1716.0,
+        "lifetime": 25575
+    },
+    {
+        "episode": 719,
+        "step": 187,
+        "reward": 176.0,
+        "lifetime": 2805
+    },
+    {
+        "episode": 720,
+        "step": 6120,
+        "reward": 5723.0,
+        "lifetime": 87330
+    },
+    {
+        "episode": 721,
+        "step": 12,
+        "reward": 11.0,
+        "lifetime": 180
+    },
+    {
+        "episode": 722,
+        "step": 495,
+        "reward": 461.0,
+        "lifetime": 6405
+    },
+    {
+        "episode": 723,
+        "step": 266,
+        "reward": 251.0,
+        "lifetime": 3320
+    },
+    {
+        "episode": 724,
+        "step": 73,
+        "reward": 69.0,
+        "lifetime": 775
+    },
+    {
+        "episode": 725,
+        "step": 176,
+        "reward": 168.0,
+        "lifetime": 2650
+    },
+    {
+        "episode": 726,
+        "step": 49,
+        "reward": 47.0,
+        "lifetime": 915
+    },
+    {
+        "episode": 727,
+        "step": 594,
+        "reward": 566.0,
+        "lifetime": 8850
+    },
+    {
+        "episode": 728,
+        "step": 1032,
+        "reward": 964.0,
+        "lifetime": 15360
+    },
+    {
+        "episode": 729,
+        "step": 2133,
+        "reward": 2000.0,
+        "lifetime": 29485
+    },
+    {
+        "episode": 730,
+        "step": 2122,
+        "reward": 2012.0,
+        "lifetime": 30475
+    },
+    {
+        "episode": 731,
+        "step": 580,
+        "reward": 540.0,
+        "lifetime": 7970
+    },
+    {
+        "episode": 732,
+        "step": 674,
+        "reward": 631.0,
+        "lifetime": 9015
+    },
+    {
+        "episode": 733,
+        "step": 240,
+        "reward": 223.0,
+        "lifetime": 3060
+    },
+    {
+        "episode": 734,
+        "step": 634,
+        "reward": 586.0,
+        "lifetime": 8860
+    },
+    {
+        "episode": 735,
+        "step": 2074,
+        "reward": 1942.0,
+        "lifetime": 28385
+    },
+    {
+        "episode": 736,
+        "step": 610,
+        "reward": 577.0,
+        "lifetime": 9060
+    },
+    {
+        "episode": 737,
+        "step": 316,
+        "reward": 292.0,
+        "lifetime": 4545
+    },
+    {
+        "episode": 738,
+        "step": 232,
+        "reward": 216.0,
+        "lifetime": 2920
+    },
+    {
+        "episode": 739,
+        "step": 201,
+        "reward": 185.0,
+        "lifetime": 3330
+    },
+    {
+        "episode": 740,
+        "step": 284,
+        "reward": 257.0,
+        "lifetime": 3890
+    },
+    {
+        "episode": 741,
+        "step": 862,
+        "reward": 811.0,
+        "lifetime": 12000
+    },
+    {
+        "episode": 742,
+        "step": 776,
+        "reward": 736.0,
+        "lifetime": 11525
+    },
+    {
+        "episode": 743,
+        "step": 1946,
+        "reward": 1818.0,
+        "lifetime": 27680
+    },
+    {
+        "episode": 744,
+        "step": 135,
+        "reward": 121.0,
+        "lifetime": 1890
+    },
+    {
+        "episode": 745,
+        "step": 1100,
+        "reward": 1032.0,
+        "lifetime": 15875
+    },
+    {
+        "episode": 746,
+        "step": 401,
+        "reward": 352.0,
+        "lifetime": 5045
+    },
+    {
+        "episode": 747,
+        "step": 1725,
+        "reward": 1635.0,
+        "lifetime": 24465
+    },
+    {
+        "episode": 748,
+        "step": 1164,
+        "reward": 1090.0,
+        "lifetime": 16450
+    },
+    {
+        "episode": 749,
+        "step": 337,
+        "reward": 324.0,
+        "lifetime": 5150
+    },
+    {
+        "episode": 750,
+        "step": 1521,
+        "reward": 1417.0,
+        "lifetime": 22245
+    },
+    {
+        "episode": 751,
+        "step": 3642,
+        "reward": 3414.0,
+        "lifetime": 51465
+    },
+    {
+        "episode": 752,
+        "step": 404,
+        "reward": 383.0,
+        "lifetime": 5960
+    },
+    {
+        "episode": 753,
+        "step": 1111,
+        "reward": 1066.0,
+        "lifetime": 16410
+    },
+    {
+        "episode": 754,
+        "step": 639,
+        "reward": 596.0,
+        "lifetime": 8315
+    },
+    {
+        "episode": 755,
+        "step": 140,
+        "reward": 124.0,
+        "lifetime": 1880
+    },
+    {
+        "episode": 756,
+        "step": 4638,
+        "reward": 4391.0,
+        "lifetime": 63625
+    },
+    {
+        "episode": 757,
+        "step": 1153,
+        "reward": 1086.0,
+        "lifetime": 16545
+    },
+    {
+        "episode": 758,
+        "step": 3562,
+        "reward": 3378.0,
+        "lifetime": 49565
+    },
+    {
+        "episode": 759,
+        "step": 142,
+        "reward": 130.0,
+        "lifetime": 2050
+    },
+    {
+        "episode": 760,
+        "step": 84,
+        "reward": 64.0,
+        "lifetime": 1035
+    },
+    {
+        "episode": 761,
+        "step": 946,
+        "reward": 879.0,
+        "lifetime": 13755
+    },
+    {
+        "episode": 762,
+        "step": 58,
+        "reward": 55.0,
+        "lifetime": 830
+    },
+    {
+        "episode": 763,
+        "step": 608,
+        "reward": 575.0,
+        "lifetime": 8560
+    },
+    {
+        "episode": 764,
+        "step": 1445,
+        "reward": 1361.0,
+        "lifetime": 19115
+    },
+    {
+        "episode": 765,
+        "step": 4289,
+        "reward": 4019.0,
+        "lifetime": 60035
+    },
+    {
+        "episode": 766,
+        "step": 19,
+        "reward": 17.0,
+        "lifetime": 390
+    },
+    {
+        "episode": 767,
+        "step": 3643,
+        "reward": 3467.0,
+        "lifetime": 50875
+    },
+    {
+        "episode": 768,
+        "step": 2161,
+        "reward": 2054.0,
+        "lifetime": 32555
+    },
+    {
+        "episode": 769,
+        "step": 958,
+        "reward": 895.0,
+        "lifetime": 12915
+    },
+    {
+        "episode": 770,
+        "step": 325,
+        "reward": 305.0,
+        "lifetime": 3980
+    },
+    {
+        "episode": 771,
+        "step": 1530,
+        "reward": 1451.0,
+        "lifetime": 21475
+    },
+    {
+        "episode": 772,
+        "step": 2202,
+        "reward": 2053.0,
+        "lifetime": 29595
+    },
+    {
+        "episode": 773,
+        "step": 2294,
+        "reward": 2136.0,
+        "lifetime": 32780
+    },
+    {
+        "episode": 774,
+        "step": 1462,
+        "reward": 1372.0,
+        "lifetime": 20180
+    },
+    {
+        "episode": 775,
+        "step": 164,
+        "reward": 159.0,
+        "lifetime": 2225
+    },
+    {
+        "episode": 776,
+        "step": 230,
+        "reward": 219.0,
+        "lifetime": 3330
+    },
+    {
+        "episode": 777,
+        "step": 53,
+        "reward": 38.0,
+        "lifetime": 740
+    },
+    {
+        "episode": 778,
+        "step": 860,
+        "reward": 806.0,
+        "lifetime": 11160
+    },
+    {
+        "episode": 779,
+        "step": 625,
+        "reward": 606.0,
+        "lifetime": 9435
+    },
+    {
+        "episode": 780,
+        "step": 3370,
+        "reward": 3190.0,
+        "lifetime": 47260
+    },
+    {
+        "episode": 781,
+        "step": 150,
+        "reward": 126.0,
+        "lifetime": 2080
+    },
+    {
+        "episode": 782,
+        "step": 908,
+        "reward": 844.0,
+        "lifetime": 11905
+    },
+    {
+        "episode": 783,
+        "step": 886,
+        "reward": 836.0,
+        "lifetime": 12720
+    },
+    {
+        "episode": 784,
+        "step": 1895,
+        "reward": 1787.0,
+        "lifetime": 28110
+    },
+    {
+        "episode": 785,
+        "step": 3065,
+        "reward": 2906.0,
+        "lifetime": 43575
+    },
+    {
+        "episode": 786,
+        "step": 1940,
+        "reward": 1810.0,
+        "lifetime": 27400
+    },
+    {
+        "episode": 787,
+        "step": 824,
+        "reward": 791.0,
+        "lifetime": 11855
+    },
+    {
+        "episode": 788,
+        "step": 3151,
+        "reward": 2940.0,
+        "lifetime": 44065
+    },
+    {
+        "episode": 789,
+        "step": 2264,
+        "reward": 2117.0,
+        "lifetime": 32060
+    },
+    {
+        "episode": 790,
+        "step": 511,
+        "reward": 486.0,
+        "lifetime": 7350
+    },
+    {
+        "episode": 791,
+        "step": 2031,
+        "reward": 1930.0,
+        "lifetime": 28465
+    },
+    {
+        "episode": 792,
+        "step": 3500,
+        "reward": 3271.0,
+        "lifetime": 47315
+    },
+    {
+        "episode": 793,
+        "step": 3609,
+        "reward": 3409.0,
+        "lifetime": 49590
+    },
+    {
+        "episode": 794,
+        "step": 4164,
+        "reward": 3928.0,
+        "lifetime": 58580
+    },
+    {
+        "episode": 795,
+        "step": 1086,
+        "reward": 1014.0,
+        "lifetime": 15325
+    },
+    {
+        "episode": 796,
+        "step": 2129,
+        "reward": 1985.0,
+        "lifetime": 30675
+    },
+    {
+        "episode": 797,
+        "step": 1515,
+        "reward": 1428.0,
+        "lifetime": 20740
+    },
+    {
+        "episode": 798,
+        "step": 3755,
+        "reward": 3509.0,
+        "lifetime": 51835
+    },
+    {
+        "episode": 799,
+        "step": 77,
+        "reward": 75.0,
+        "lifetime": 1225
+    },
+    {
+        "episode": 800,
+        "step": 2284,
+        "reward": 2131.0,
+        "lifetime": 30985
+    },
+    {
+        "episode": 801,
+        "step": 1036,
+        "reward": 963.0,
+        "lifetime": 12935
+    },
+    {
+        "episode": 802,
+        "step": 52,
+        "reward": 44.0,
+        "lifetime": 705
+    },
+    {
+        "episode": 803,
+        "step": 1483,
+        "reward": 1388.0,
+        "lifetime": 19660
+    },
+    {
+        "episode": 804,
+        "step": 2655,
+        "reward": 2508.0,
+        "lifetime": 37725
+    },
+    {
+        "episode": 805,
+        "step": 450,
+        "reward": 421.0,
+        "lifetime": 5845
+    },
+    {
+        "episode": 806,
+        "step": 2501,
+        "reward": 2338.0,
+        "lifetime": 35275
+    },
+    {
+        "episode": 807,
+        "step": 660,
+        "reward": 613.0,
+        "lifetime": 9285
+    },
+    {
+        "episode": 808,
+        "step": 805,
+        "reward": 765.0,
+        "lifetime": 11885
+    },
+    {
+        "episode": 809,
+        "step": 1228,
+        "reward": 1169.0,
+        "lifetime": 17030
+    },
+    {
+        "episode": 810,
+        "step": 2024,
+        "reward": 1905.0,
+        "lifetime": 28690
+    },
+    {
+        "episode": 811,
+        "step": 89,
+        "reward": 83.0,
+        "lifetime": 1135
+    },
+    {
+        "episode": 812,
+        "step": 912,
+        "reward": 832.0,
+        "lifetime": 13345
+    },
+    {
+        "episode": 813,
+        "step": 1640,
+        "reward": 1558.0,
+        "lifetime": 22400
+    },
+    {
+        "episode": 814,
+        "step": 2722,
+        "reward": 2562.0,
+        "lifetime": 36840
+    },
+    {
+        "episode": 815,
+        "step": 901,
+        "reward": 830.0,
+        "lifetime": 13425
+    },
+    {
+        "episode": 816,
+        "step": 2037,
+        "reward": 1926.0,
+        "lifetime": 28690
+    },
+    {
+        "episode": 817,
+        "step": 1650,
+        "reward": 1550.0,
+        "lifetime": 22475
+    },
+    {
+        "episode": 818,
+        "step": 1284,
+        "reward": 1197.0,
+        "lifetime": 17810
+    },
+    {
+        "episode": 819,
+        "step": 665,
+        "reward": 627.0,
+        "lifetime": 8855
+    },
+    {
+        "episode": 820,
+        "step": 83,
+        "reward": 68.0,
+        "lifetime": 1115
+    },
+    {
+        "episode": 821,
+        "step": 379,
+        "reward": 357.0,
+        "lifetime": 5155
+    },
+    {
+        "episode": 822,
+        "step": 366,
+        "reward": 344.0,
+        "lifetime": 5050
+    },
+    {
+        "episode": 823,
+        "step": 1307,
+        "reward": 1246.0,
+        "lifetime": 18085
+    },
+    {
+        "episode": 824,
+        "step": 2019,
+        "reward": 1917.0,
+        "lifetime": 29110
+    },
+    {
+        "episode": 825,
+        "step": 1814,
+        "reward": 1711.0,
+        "lifetime": 25260
+    },
+    {
+        "episode": 826,
+        "step": 2141,
+        "reward": 2027.0,
+        "lifetime": 31030
+    },
+    {
+        "episode": 827,
+        "step": 3103,
+        "reward": 2936.0,
+        "lifetime": 44205
+    },
+    {
+        "episode": 828,
+        "step": 1986,
+        "reward": 1879.0,
+        "lifetime": 27940
+    },
+    {
+        "episode": 829,
+        "step": 1126,
+        "reward": 1064.0,
+        "lifetime": 15370
+    },
+    {
+        "episode": 830,
+        "step": 5,
+        "reward": 4.0,
+        "lifetime": 140
+    },
+    {
+        "episode": 831,
+        "step": 3602,
+        "reward": 3392.0,
+        "lifetime": 52985
+    },
+    {
+        "episode": 832,
+        "step": 488,
+        "reward": 409.0,
+        "lifetime": 5985
+    },
+    {
+        "episode": 833,
+        "step": 790,
+        "reward": 760.0,
+        "lifetime": 11675
+    },
+    {
+        "episode": 834,
+        "step": 459,
+        "reward": 429.0,
+        "lifetime": 6640
+    },
+    {
+        "episode": 835,
+        "step": 3015,
+        "reward": 2746.0,
+        "lifetime": 41975
+    },
+    {
+        "episode": 836,
+        "step": 1930,
+        "reward": 1825.0,
+        "lifetime": 26775
+    },
+    {
+        "episode": 837,
+        "step": 2202,
+        "reward": 2064.0,
+        "lifetime": 30335
+    },
+    {
+        "episode": 838,
+        "step": 366,
+        "reward": 335.0,
+        "lifetime": 5515
+    },
+    {
+        "episode": 839,
+        "step": 3191,
+        "reward": 3025.0,
+        "lifetime": 46225
+    },
+    {
+        "episode": 840,
+        "step": 1299,
+        "reward": 1232.0,
+        "lifetime": 18835
+    },
+    {
+        "episode": 841,
+        "step": 977,
+        "reward": 933.0,
+        "lifetime": 14285
+    },
+    {
+        "episode": 842,
+        "step": 813,
+        "reward": 760.0,
+        "lifetime": 12590
+    },
+    {
+        "episode": 843,
+        "step": 1443,
+        "reward": 1370.0,
+        "lifetime": 20145
+    },
+    {
+        "episode": 844,
+        "step": 886,
+        "reward": 827.0,
+        "lifetime": 12580
+    },
+    {
+        "episode": 845,
+        "step": 3738,
+        "reward": 3483.0,
+        "lifetime": 52060
+    },
+    {
+        "episode": 846,
+        "step": 66,
+        "reward": 63.0,
+        "lifetime": 770
+    },
+    {
+        "episode": 847,
+        "step": 4050,
+        "reward": 3818.0,
+        "lifetime": 57820
+    },
+    {
+        "episode": 848,
+        "step": 750,
+        "reward": 698.0,
+        "lifetime": 10195
+    },
+    {
+        "episode": 849,
+        "step": 265,
+        "reward": 253.0,
+        "lifetime": 3760
+    },
+    {
+        "episode": 850,
+        "step": 730,
+        "reward": 695.0,
+        "lifetime": 10490
+    },
+    {
+        "episode": 851,
+        "step": 1447,
+        "reward": 1360.0,
+        "lifetime": 20040
+    },
+    {
+        "episode": 852,
+        "step": 37,
+        "reward": 36.0,
+        "lifetime": 580
+    },
+    {
+        "episode": 853,
+        "step": 1163,
+        "reward": 1104.0,
+        "lifetime": 17680
+    },
+    {
+        "episode": 854,
+        "step": 2070,
+        "reward": 1977.0,
+        "lifetime": 28900
+    },
+    {
+        "episode": 855,
+        "step": 5150,
+        "reward": 4848.0,
+        "lifetime": 72005
+    },
+    {
+        "episode": 856,
+        "step": 769,
+        "reward": 725.0,
+        "lifetime": 11310
+    },
+    {
+        "episode": 857,
+        "step": 103,
+        "reward": 97.0,
+        "lifetime": 1755
+    },
+    {
+        "episode": 858,
+        "step": 67,
+        "reward": 66.0,
+        "lifetime": 755
+    },
+    {
+        "episode": 859,
+        "step": 4048,
+        "reward": 3816.0,
+        "lifetime": 55755
+    },
+    {
+        "episode": 860,
+        "step": 5649,
+        "reward": 5333.0,
+        "lifetime": 79995
+    },
+    {
+        "episode": 861,
+        "step": 3228,
+        "reward": 2999.0,
+        "lifetime": 44340
+    },
+    {
+        "episode": 862,
+        "step": 77,
+        "reward": 35.0,
+        "lifetime": 850
+    },
+    {
+        "episode": 863,
+        "step": 2061,
+        "reward": 1939.0,
+        "lifetime": 28605
+    },
+    {
+        "episode": 864,
+        "step": 538,
+        "reward": 498.0,
+        "lifetime": 7140
+    },
+    {
+        "episode": 865,
+        "step": 375,
+        "reward": 363.0,
+        "lifetime": 5475
+    },
+    {
+        "episode": 866,
+        "step": 1697,
+        "reward": 1583.0,
+        "lifetime": 23615
+    },
+    {
+        "episode": 867,
+        "step": 7,
+        "reward": 6.0,
+        "lifetime": 95
+    },
+    {
+        "episode": 868,
+        "step": 43,
+        "reward": 40.0,
+        "lifetime": 685
+    },
+    {
+        "episode": 869,
+        "step": 694,
+        "reward": 667.0,
+        "lifetime": 9545
+    },
+    {
+        "episode": 870,
+        "step": 367,
+        "reward": 350.0,
+        "lifetime": 4750
+    },
+    {
+        "episode": 871,
+        "step": 963,
+        "reward": 909.0,
+        "lifetime": 13360
+    },
+    {
+        "episode": 872,
+        "step": 1650,
+        "reward": 1552.0,
+        "lifetime": 22545
+    },
+    {
+        "episode": 873,
+        "step": 325,
+        "reward": 299.0,
+        "lifetime": 4265
+    },
+    {
+        "episode": 874,
+        "step": 1212,
+        "reward": 1120.0,
+        "lifetime": 17235
+    },
+    {
+        "episode": 875,
+        "step": 685,
+        "reward": 644.0,
+        "lifetime": 9290
+    },
+    {
+        "episode": 876,
+        "step": 1715,
+        "reward": 1630.0,
+        "lifetime": 23935
+    },
+    {
+        "episode": 877,
+        "step": 2415,
+        "reward": 2235.0,
+        "lifetime": 32075
+    },
+    {
+        "episode": 878,
+        "step": 97,
+        "reward": 90.0,
+        "lifetime": 1565
+    },
+    {
+        "episode": 879,
+        "step": 449,
+        "reward": 429.0,
+        "lifetime": 6360
+    },
+    {
+        "episode": 880,
+        "step": 1423,
+        "reward": 1336.0,
+        "lifetime": 20380
+    },
+    {
+        "episode": 881,
+        "step": 131,
+        "reward": 106.0,
+        "lifetime": 1745
+    },
+    {
+        "episode": 882,
+        "step": 1490,
+        "reward": 1399.0,
+        "lifetime": 21045
+    },
+    {
+        "episode": 883,
+        "step": 181,
+        "reward": 172.0,
+        "lifetime": 2790
+    },
+    {
+        "episode": 884,
+        "step": 938,
+        "reward": 886.0,
+        "lifetime": 13255
+    },
+    {
+        "episode": 885,
+        "step": 633,
+        "reward": 594.0,
+        "lifetime": 9435
+    },
+    {
+        "episode": 886,
+        "step": 2041,
+        "reward": 1925.0,
+        "lifetime": 29240
+    },
+    {
+        "episode": 887,
+        "step": 4282,
+        "reward": 4057.0,
+        "lifetime": 61860
+    },
+    {
+        "episode": 888,
+        "step": 1126,
+        "reward": 1041.0,
+        "lifetime": 15945
+    },
+    {
+        "episode": 889,
+        "step": 1141,
+        "reward": 1065.0,
+        "lifetime": 15945
+    },
+    {
+        "episode": 890,
+        "step": 978,
+        "reward": 931.0,
+        "lifetime": 13240
+    },
+    {
+        "episode": 891,
+        "step": 2403,
+        "reward": 2264.0,
+        "lifetime": 33740
+    },
+    {
+        "episode": 892,
+        "step": 1876,
+        "reward": 1780.0,
+        "lifetime": 26740
+    },
+    {
+        "episode": 893,
+        "step": 442,
+        "reward": 420.0,
+        "lifetime": 5640
+    },
+    {
+        "episode": 894,
+        "step": 1013,
+        "reward": 962.0,
+        "lifetime": 14860
+    },
+    {
+        "episode": 895,
+        "step": 1066,
+        "reward": 1009.0,
+        "lifetime": 14730
+    },
+    {
+        "episode": 896,
+        "step": 1265,
+        "reward": 1191.0,
+        "lifetime": 17015
+    },
+    {
+        "episode": 897,
+        "step": 402,
+        "reward": 341.0,
+        "lifetime": 5415
+    },
+    {
+        "episode": 898,
+        "step": 3798,
+        "reward": 3571.0,
+        "lifetime": 51620
+    },
+    {
+        "episode": 899,
+        "step": 188,
+        "reward": 181.0,
+        "lifetime": 2505
+    },
+    {
+        "episode": 900,
+        "step": 427,
+        "reward": 392.0,
+        "lifetime": 5830
+    },
+    {
+        "episode": 901,
+        "step": 663,
+        "reward": 630.0,
+        "lifetime": 9215
+    },
+    {
+        "episode": 902,
+        "step": 1907,
+        "reward": 1786.0,
+        "lifetime": 27200
+    },
+    {
+        "episode": 903,
+        "step": 719,
+        "reward": 669.0,
+        "lifetime": 9895
+    },
+    {
+        "episode": 904,
+        "step": 231,
+        "reward": 184.0,
+        "lifetime": 3050
+    },
+    {
+        "episode": 905,
+        "step": 85,
+        "reward": 78.0,
+        "lifetime": 1175
+    },
+    {
+        "episode": 906,
+        "step": 362,
+        "reward": 333.0,
+        "lifetime": 4855
+    },
+    {
+        "episode": 907,
+        "step": 367,
+        "reward": 319.0,
+        "lifetime": 5140
+    },
+    {
+        "episode": 908,
+        "step": 511,
+        "reward": 480.0,
+        "lifetime": 7240
+    },
+    {
+        "episode": 909,
+        "step": 1978,
+        "reward": 1863.0,
+        "lifetime": 28195
+    },
+    {
+        "episode": 910,
+        "step": 2751,
+        "reward": 2561.0,
+        "lifetime": 40790
+    },
+    {
+        "episode": 911,
+        "step": 377,
+        "reward": 353.0,
+        "lifetime": 5485
+    },
+    {
+        "episode": 912,
+        "step": 2515,
+        "reward": 2386.0,
+        "lifetime": 37385
+    },
+    {
+        "episode": 913,
+        "step": 1327,
+        "reward": 1235.0,
+        "lifetime": 19750
+    },
+    {
+        "episode": 914,
+        "step": 89,
+        "reward": 81.0,
+        "lifetime": 1050
+    },
+    {
+        "episode": 915,
+        "step": 830,
+        "reward": 767.0,
+        "lifetime": 11610
+    },
+    {
+        "episode": 916,
+        "step": 80,
+        "reward": 72.0,
+        "lifetime": 1300
+    },
+    {
+        "episode": 917,
+        "step": 284,
+        "reward": 263.0,
+        "lifetime": 4220
+    },
+    {
+        "episode": 918,
+        "step": 690,
+        "reward": 578.0,
+        "lifetime": 8770
+    },
+    {
+        "episode": 919,
+        "step": 1835,
+        "reward": 1721.0,
+        "lifetime": 26745
+    },
+    {
+        "episode": 920,
+        "step": 1342,
+        "reward": 1265.0,
+        "lifetime": 18455
+    },
+    {
+        "episode": 921,
+        "step": 716,
+        "reward": 660.0,
+        "lifetime": 10740
+    },
+    {
+        "episode": 922,
+        "step": 508,
+        "reward": 482.0,
+        "lifetime": 7485
+    },
+    {
+        "episode": 923,
+        "step": 594,
+        "reward": 569.0,
+        "lifetime": 8625
+    },
+    {
+        "episode": 924,
+        "step": 186,
+        "reward": 172.0,
+        "lifetime": 2615
+    },
+    {
+        "episode": 925,
+        "step": 1448,
+        "reward": 1363.0,
+        "lifetime": 20325
+    },
+    {
+        "episode": 926,
+        "step": 1452,
+        "reward": 1375.0,
+        "lifetime": 21010
+    },
+    {
+        "episode": 927,
+        "step": 624,
+        "reward": 589.0,
+        "lifetime": 9130
+    },
+    {
+        "episode": 928,
+        "step": 49,
+        "reward": 43.0,
+        "lifetime": 820
+    },
+    {
+        "episode": 929,
+        "step": 1886,
+        "reward": 1735.0,
+        "lifetime": 25880
+    },
+    {
+        "episode": 930,
+        "step": 2991,
+        "reward": 2832.0,
+        "lifetime": 42910
+    },
+    {
+        "episode": 931,
+        "step": 1322,
+        "reward": 1221.0,
+        "lifetime": 18115
+    },
+    {
+        "episode": 932,
+        "step": 2627,
+        "reward": 2463.0,
+        "lifetime": 37260
+    },
+    {
+        "episode": 933,
+        "step": 682,
+        "reward": 629.0,
+        "lifetime": 9530
+    },
+    {
+        "episode": 934,
+        "step": 77,
+        "reward": 55.0,
+        "lifetime": 800
+    },
+    {
+        "episode": 935,
+        "step": 492,
+        "reward": 461.0,
+        "lifetime": 6790
+    },
+    {
+        "episode": 936,
+        "step": 66,
+        "reward": 62.0,
+        "lifetime": 725
+    },
+    {
+        "episode": 937,
+        "step": 40,
+        "reward": 38.0,
+        "lifetime": 475
+    },
+    {
+        "episode": 938,
+        "step": 4001,
+        "reward": 3769.0,
+        "lifetime": 57810
+    },
+    {
+        "episode": 939,
+        "step": 128,
+        "reward": 122.0,
+        "lifetime": 1625
+    },
+    {
+        "episode": 940,
+        "step": 619,
+        "reward": 586.0,
+        "lifetime": 8385
+    },
+    {
+        "episode": 941,
+        "step": 699,
+        "reward": 644.0,
+        "lifetime": 9220
+    },
+    {
+        "episode": 942,
+        "step": 408,
+        "reward": 384.0,
+        "lifetime": 5660
+    },
+    {
+        "episode": 943,
+        "step": 1803,
+        "reward": 1698.0,
+        "lifetime": 25755
+    },
+    {
+        "episode": 944,
+        "step": 322,
+        "reward": 307.0,
+        "lifetime": 4710
+    },
+    {
+        "episode": 945,
+        "step": 1013,
+        "reward": 950.0,
+        "lifetime": 13220
+    },
+    {
+        "episode": 946,
+        "step": 69,
+        "reward": 68.0,
+        "lifetime": 1035
+    },
+    {
+        "episode": 947,
+        "step": 274,
+        "reward": 253.0,
+        "lifetime": 3505
+    },
+    {
+        "episode": 948,
+        "step": 629,
+        "reward": 598.0,
+        "lifetime": 8175
+    },
+    {
+        "episode": 949,
+        "step": 2817,
+        "reward": 2636.0,
+        "lifetime": 37820
+    },
+    {
+        "episode": 950,
+        "step": 888,
+        "reward": 846.0,
+        "lifetime": 12605
+    },
+    {
+        "episode": 951,
+        "step": 491,
+        "reward": 465.0,
+        "lifetime": 6740
+    },
+    {
+        "episode": 952,
+        "step": 766,
+        "reward": 715.0,
+        "lifetime": 10880
+    },
+    {
+        "episode": 953,
+        "step": 420,
+        "reward": 394.0,
+        "lifetime": 5495
+    },
+    {
+        "episode": 954,
+        "step": 433,
+        "reward": 414.0,
+        "lifetime": 6315
+    },
+    {
+        "episode": 955,
+        "step": 628,
+        "reward": 597.0,
+        "lifetime": 9095
+    },
+    {
+        "episode": 956,
+        "step": 2518,
+        "reward": 2358.0,
+        "lifetime": 34285
+    },
+    {
+        "episode": 957,
+        "step": 567,
+        "reward": 508.0,
+        "lifetime": 7770
+    },
+    {
+        "episode": 958,
+        "step": 2909,
+        "reward": 2725.0,
+        "lifetime": 39545
+    },
+    {
+        "episode": 959,
+        "step": 2602,
+        "reward": 2394.0,
+        "lifetime": 35630
+    },
+    {
+        "episode": 960,
+        "step": 561,
+        "reward": 525.0,
+        "lifetime": 7820
+    },
+    {
+        "episode": 961,
+        "step": 112,
+        "reward": 110.0,
+        "lifetime": 1740
+    },
+    {
+        "episode": 962,
+        "step": 334,
+        "reward": 314.0,
+        "lifetime": 4685
+    },
+    {
+        "episode": 963,
+        "step": 1217,
+        "reward": 1154.0,
+        "lifetime": 16635
+    },
+    {
+        "episode": 964,
+        "step": 1281,
+        "reward": 1151.0,
+        "lifetime": 17035
+    },
+    {
+        "episode": 965,
+        "step": 5,
+        "reward": 4.0,
+        "lifetime": 60
+    },
+    {
+        "episode": 966,
+        "step": 557,
+        "reward": 508.0,
+        "lifetime": 7675
+    },
+    {
+        "episode": 967,
+        "step": 279,
+        "reward": 259.0,
+        "lifetime": 3980
+    },
+    {
+        "episode": 968,
+        "step": 109,
+        "reward": 91.0,
+        "lifetime": 1030
+    },
+    {
+        "episode": 969,
+        "step": 153,
+        "reward": 139.0,
+        "lifetime": 1845
+    },
+    {
+        "episode": 970,
+        "step": 132,
+        "reward": 117.0,
+        "lifetime": 1935
+    },
+    {
+        "episode": 971,
+        "step": 1402,
+        "reward": 1322.0,
+        "lifetime": 18515
+    },
+    {
+        "episode": 972,
+        "step": 4741,
+        "reward": 4478.0,
+        "lifetime": 65215
+    },
+    {
+        "episode": 973,
+        "step": 1417,
+        "reward": 1337.0,
+        "lifetime": 19365
+    },
+    {
+        "episode": 974,
+        "step": 695,
+        "reward": 622.0,
+        "lifetime": 9155
+    },
+    {
+        "episode": 975,
+        "step": 510,
+        "reward": 493.0,
+        "lifetime": 7860
+    },
+    {
+        "episode": 976,
+        "step": 541,
+        "reward": 510.0,
+        "lifetime": 7475
+    },
+    {
+        "episode": 977,
+        "step": 1130,
+        "reward": 1047.0,
+        "lifetime": 16810
+    },
+    {
+        "episode": 978,
+        "step": 506,
+        "reward": 479.0,
+        "lifetime": 7455
+    },
+    {
+        "episode": 979,
+        "step": 1505,
+        "reward": 1410.0,
+        "lifetime": 20765
+    },
+    {
+        "episode": 980,
+        "step": 716,
+        "reward": 683.0,
+        "lifetime": 9560
+    },
+    {
+        "episode": 981,
+        "step": 583,
+        "reward": 540.0,
+        "lifetime": 8740
+    },
+    {
+        "episode": 982,
+        "step": 852,
+        "reward": 766.0,
+        "lifetime": 11325
+    },
+    {
+        "episode": 983,
+        "step": 2655,
+        "reward": 2461.0,
+        "lifetime": 36220
+    },
+    {
+        "episode": 984,
+        "step": 359,
+        "reward": 317.0,
+        "lifetime": 5070
+    },
+    {
+        "episode": 985,
+        "step": 949,
+        "reward": 887.0,
+        "lifetime": 13795
+    },
+    {
+        "episode": 986,
+        "step": 66,
+        "reward": 64.0,
+        "lifetime": 1020
+    },
+    {
+        "episode": 987,
+        "step": 573,
+        "reward": 537.0,
+        "lifetime": 8405
+    },
+    {
+        "episode": 988,
+        "step": 3809,
+        "reward": 3620.0,
+        "lifetime": 54395
+    },
+    {
+        "episode": 989,
+        "step": 3346,
+        "reward": 3150.0,
+        "lifetime": 47635
+    },
+    {
+        "episode": 990,
+        "step": 1627,
+        "reward": 1533.0,
+        "lifetime": 23175
+    },
+    {
+        "episode": 991,
+        "step": 741,
+        "reward": 647.0,
+        "lifetime": 10020
+    },
+    {
+        "episode": 992,
+        "step": 754,
+        "reward": 723.0,
+        "lifetime": 11125
+    },
+    {
+        "episode": 993,
+        "step": 388,
+        "reward": 369.0,
+        "lifetime": 5670
+    },
+    {
+        "episode": 994,
+        "step": 244,
+        "reward": 223.0,
+        "lifetime": 3385
+    },
+    {
+        "episode": 995,
+        "step": 25,
+        "reward": 24.0,
+        "lifetime": 430
+    },
+    {
+        "episode": 996,
+        "step": 572,
+        "reward": 527.0,
+        "lifetime": 8005
+    },
+    {
+        "episode": 997,
+        "step": 413,
+        "reward": 314.0,
+        "lifetime": 5360
+    },
+    {
+        "episode": 998,
+        "step": 117,
+        "reward": 109.0,
+        "lifetime": 1665
+    },
+    {
+        "episode": 999,
+        "step": 1332,
+        "reward": 1253.0,
+        "lifetime": 18735
+    },
+    {
+        "episode": 1000,
+        "step": 85,
+        "reward": 74.0,
+        "lifetime": 1285
+    }
+]
