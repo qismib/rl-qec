@@ -130,7 +130,7 @@ class LinearAnnealedEpsGreedyPolicy:
             epsilon = self.current_epsilon
         else:
             # "policy" per il test --> equivalente di GreedyQPolicy con o senza masking
-            epsilon = 0.0 if not self.masked_greedy else 0.0 
+            epsilon = 0.0  
         
         num_actions = q_values.size(-1)
         
@@ -141,7 +141,7 @@ class LinearAnnealedEpsGreedyPolicy:
             # sfruttamento: selezione greedy (con masking se richiesto)
             
             if self.masked_greedy or not is_training: 
-                # applica il masking anche in test se richiesto
+                # applica il masking se richiesto o in test
                 mask = torch.ones(num_actions, dtype=torch.bool).to(q_values.device)
                 illegal_actions = [a for a in range(num_actions) if a not in legal_actions]
                 mask[illegal_actions] = False
@@ -811,19 +811,7 @@ def train_with_ppr(agent, env, policy, policy_net, memory, library, all_configs=
                     with torch.no_grad(): 
                         q_values_Li = Li(state_tensor).squeeze(0)
 
-                    # logica simile a quella implementata in LinearAnnealedEpsGreedyPolicy.select_action
-                    num_actions = q_values_Li.size(-1)
-                    # selezione greedy con masking delle azioni illegali se richiesto --> uso un'unica variabile per stabilire se eseguire mask anche in greedy sia che si tratti di policy_net o reuse
-                    if all_configs["masked_greedy"]:
-                        legal_actions = env.legal_actions
-                        mask = torch.ones(num_actions, dtype=torch.bool).to(q_values_Li.device)
-                        illegal_actions = [a for a in range(num_actions) if a not in legal_actions]
-                        mask[illegal_actions] = False
-                        # imposto Q-value illegali a un valore molto basso prima di argmax
-                        masked_q_values_Li = q_values_Li.masked_fill(~mask, -1e9)
-                        action = masked_q_values_Li.argmax().item()
-                    else:
-                        action = q_values_Li.argmax().item()
+                    action = q_values_Li.argmax().item()
                     
                     reuse_action_count += 1
 
