@@ -1,0 +1,41 @@
+[
+    {
+        "step": 93,
+        "episode": 1,
+        "episode_reward": 0,
+        "episode_step_count": 93,
+        "reward_mean": 0.0,
+        "reward_std": 0.0,
+        "episode_lifetime": 110,
+        "lifetime_mean": 110.0,
+        "lifetime_std": 0.0,
+        "loss": null,
+        "epsilon": 0.9987848
+    },
+    {
+        "step": 134,
+        "episode": 2,
+        "episode_reward": 0,
+        "episode_step_count": 41,
+        "reward_mean": 0.0,
+        "reward_std": 0.0,
+        "episode_lifetime": 45,
+        "lifetime_mean": 77.5,
+        "lifetime_std": 32.5,
+        "loss": null,
+        "epsilon": 0.9982490666666667
+    },
+    {
+        "step": 184,
+        "episode": 3,
+        "episode_reward": 0,
+        "episode_step_count": 50,
+        "reward_mean": 0.0,
+        "reward_std": 0.0,
+        "episode_lifetime": 20,
+        "lifetime_mean": 58.333333333333336,
+        "lifetime_std": 37.93268892247014,
+        "loss": null,
+        "epsilon": 0.9975957333333333
+    }
+]

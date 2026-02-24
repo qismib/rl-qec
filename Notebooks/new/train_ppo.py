@@ -1,0 +1,218 @@
+# import delle librerie 
+import numpy as np
+import matplotlib.pyplot as plt
+import torch
+
+from Function_Library import *
+from Environments import *
+from Agent_Torch import *
+
+import torch
+from sb3_contrib import MaskablePPO
+
+import copy
+import os
+import time
+
+from stable_baselines3.common.callbacks import BaseCallback
+import numpy as np
+
+import torch as th
+import torch.nn as nn
+import torch.nn.functional as F
+from stable_baselines3.common.torch_layers import BaseFeaturesExtractor
+
+class AvgLifetimeAndRewardCallback(BaseCallback):
+    def __init__(self, print_every=100, window_after=500, window_size=500, verbose=1):
+        super().__init__(verbose)
+        self.print_every = print_every
+        self.window_after = window_after
+        self.window_size = window_size
+
+        self.episode_count = 0
+        self.lifetimes = []
+        self.ep_rewards = []
+
+        # per accumulare reward mentre l'episodio è in corso (per ogni env del vec env)
+        self._running_rewards = None
+
+    def _on_step(self) -> bool:
+        rewards = self.locals.get("rewards")   # shape (n_envs,)
+        dones   = self.locals.get("dones")     # shape (n_envs,)
+        infos   = self.locals.get("infos")     # list of dict, len=n_envs
+
+        if dones is None or rewards is None:
+            return True
+
+        n_envs = len(dones)
+        if self._running_rewards is None:
+            self._running_rewards = np.zeros(n_envs, dtype=np.float64)
+
+        # accumula reward step-by-step
+        self._running_rewards += np.array(rewards, dtype=np.float64)
+
+        for i, done in enumerate(dones):
+            if done:
+                self.episode_count += 1
+
+                # chiudi reward episodio i
+                ep_r = float(self._running_rewards[i])
+                self.ep_rewards.append(ep_r)
+                self._running_rewards[i] = 0.0
+
+                # lifetime da info
+                lt = None
+                if infos is not None and i < len(infos):
+                    lt = infos[i].get("episode_lifetime", None)
+                if lt is not None:
+                    self.lifetimes.append(float(lt))
+
+                # stampa ogni N episodi
+                if self.episode_count % self.print_every == 0:
+                    if self.episode_count < self.window_after:
+                        r_avg = float(np.mean(self.ep_rewards))
+                        lt_avg = float(np.mean(self.lifetimes)) if len(self.lifetimes) > 0 else float("nan")
+                        print(f"[EP {self.episode_count}] Avg reward (ALL): {r_avg:.2f} | Avg lifetime (ALL): {lt_avg:.2f}")
+                    else:
+                        r_avg = float(np.mean(self.ep_rewards[-self.window_size:]))
+                        lt_avg = float(np.mean(self.lifetimes[-self.window_size:])) if len(self.lifetimes) >= self.window_size else float(np.mean(self.lifetimes))
+                        print(f"[EP {self.episode_count}] Avg reward (LAST {self.window_size}): {r_avg:.2f} | "
+                              f"Avg lifetime (LAST {self.window_size}): {lt_avg:.2f}")
+
+        return True
+    
+
+
+fixed_configs = {"d": 5,
+                "error_model": "X",                 
+                "use_Y": False,
+                "volume_depth": 5,
+                "train_freq": 1,
+                "print_freq": 100,      
+                "batch_size": 64,       
+                "buffer_size": 50000,
+                "rolling_average_length": 500,  
+                "max_timesteps": 1000000,
+                "stopping_patience": 1000,   
+                "c_layers": [[64,3,2],[32,2,1],[32,2,1]],
+                "ff_layers": [[512,0.2]],
+                "dueling": True,
+                "masked_greedy": False,
+                "static_decoder": True}
+
+variable_configs = {"p_phys": 0.003,
+                    "p_meas": 0.003,
+                    "success_threshold": 10000,      
+                    "learning_starts": 1000,             
+                    "learning_rate": 0.0001,        
+                    "exploration_fraction": 75000,  
+                    "max_eps": 1.0,
+                    "target_network_update_freq":5000, 
+                    "gamma": 0.99,
+                    "final_eps": 0.02}
+
+all_configs = {}
+for key in fixed_configs.keys():
+    all_configs[key] = fixed_configs[key]
+for key in variable_configs.keys():
+    all_configs[key] = variable_configs[key]
+device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+print(device)
+
+
+# 2 - ambiente 
+core_env = Surface_Code_Environment_Multi_Decoding_Cycles(
+    d=all_configs["d"],
+    p_phys=all_configs["p_phys"],
+    p_meas=all_configs["p_meas"],
+    error_model=all_configs["error_model"],
+    volume_depth=all_configs["volume_depth"]
+)
+
+env = SurfaceCodeGymWrapper(core_env)
+
+
+class ConvNetRLFeatures(BaseFeaturesExtractor):
+    """
+    Replica la parte feature di ConvNetRL (Agent_Torch):
+    conv stack definito da c_layers + fc stack definito da ff_layers.
+    """
+    def __init__(self, observation_space, c_layers, ff_layers):
+        # features_dim = ultimo numero di neuroni dell'ultimo ff layer (es. 512)
+        features_dim = ff_layers[-1][0]
+        super().__init__(observation_space, features_dim)
+
+        in_channels = observation_space.shape[0]
+
+        convs = []
+        for out_ch, k, s in c_layers:
+            convs.append(nn.Conv2d(in_channels, out_ch, kernel_size=k, stride=s, padding=0))
+            convs.append(nn.ReLU())
+            in_channels = out_ch
+        self.conv = nn.Sequential(*convs)
+
+        # calcolo n_flatten esattamente come in ConvNetRL
+        with th.no_grad():
+            sample = th.zeros(1, *observation_space.shape)
+            n_flatten = self.conv(sample).view(1, -1).shape[1]
+
+        # FC + dropout come ff_layers
+        fc_blocks = []
+        in_dim = n_flatten
+        for neurons, drop in ff_layers:
+            fc_blocks.append(nn.Linear(in_dim, neurons))
+            fc_blocks.append(nn.ReLU())
+            fc_blocks.append(nn.Dropout(drop))
+            in_dim = neurons
+        self.fc = nn.Sequential(*fc_blocks)
+
+    def forward(self, obs: th.Tensor) -> th.Tensor:
+        x = self.conv(obs)
+        x = x.view(x.size(0), -1)
+        x = self.fc(x)
+        return x
+    
+# 3) crea PPO (cnn policy va bene visto che obs è (C,H,W))
+'''policy_kwargs = dict(
+    features_extractor_class=SmallGridCNN,
+    features_extractor_kwargs=dict(features_dim=256),
+    normalize_images=False,   # ok lasciarlo
+)'''
+
+c_layers = [[64,3,2],[32,2,1],[32,2,1]]
+ff_layers = [[512,0.2]]
+
+policy_kwargs = dict(
+    features_extractor_class=ConvNetRLFeatures,
+    features_extractor_kwargs=dict(c_layers=c_layers, ff_layers=ff_layers),
+    normalize_images=False,
+
+    # IMPORTANTISSIMO se vuoi che sopra le feature ci siano *solo* le head lineari
+    # (cioè niente MLP extra aggiuntivo)
+    net_arch=dict(pi=[], vf=[]),
+)
+
+model = MaskablePPO(
+    policy="CnnPolicy",
+    env=env,
+    verbose=1,
+    device="cuda" if torch.cuda.is_available() else "cpu",
+    n_steps=2048,        # rollout length
+    batch_size=64,
+    learning_rate=3e-4,
+    gamma=0.99,
+    gae_lambda=0.95,
+    clip_range=0.2,
+    ent_coef=0.05,
+    policy_kwargs=policy_kwargs
+)
+
+
+callback = AvgLifetimeAndRewardCallback(print_every=100, window_after=500, window_size=500)
+
+# 4) train
+model.learn(total_timesteps=1000000000, callback=callback)
+
+
+# 5) save
+model.save("maskableppo_surfacecode_d5")

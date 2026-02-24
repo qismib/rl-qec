@@ -1,0 +1,49 @@
+{
+    "d": 5,
+    "error_model": "X",
+    "use_Y": false,
+    "volume_depth": 5,
+    "train_freq": 1,
+    "print_freq": 100,
+    "batch_size": 64,
+    "buffer_size": 50000,
+    "rolling_average_length": 500,
+    "max_timesteps": 1000000,
+    "stopping_patience": 1000,
+    "c_layers": [
+        [
+            64,
+            3,
+            2
+        ],
+        [
+            32,
+            2,
+            1
+        ],
+        [
+            32,
+            2,
+            1
+        ]
+    ],
+    "ff_layers": [
+        [
+            512,
+            0.2
+        ]
+    ],
+    "dueling": true,
+    "masked_greedy": false,
+    "static_decoder": true,
+    "p_phys": 0.003,
+    "p_meas": 0.003,
+    "success_threshold": 1100,
+    "learning_starts": 1000,
+    "learning_rate": 0.0001,
+    "exploration_fraction": 75000,
+    "max_eps": 1.0,
+    "target_network_update_freq": 5000,
+    "gamma": 0.99,
+    "final_eps": 0.02
+}

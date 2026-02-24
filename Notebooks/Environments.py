@@ -96,6 +96,8 @@ class Surface_Code_Environment_Multi_Decoding_Cycles():
 
         self.multi_cycle = True
 
+        self.prev_num_anyons = np.sum(self.current_true_syndrome)
+
     def reset(self):       
         """
         Resetting of the environment introduces a new non-trivial syndrome volume.
@@ -114,6 +116,8 @@ class Surface_Code_Environment_Multi_Decoding_Cycles():
 
         # aggiungo info, necessario per compatibilità con gymnasium rispetto a gym
         info = {}
+
+        self.prev_num_anyons = np.sum(self.current_true_syndrome)
 
         # mi assicuro che il tipo di dato sia float32, necessario per compatibilità con pytorch
         return self.board_state.astype(np.float32), info
@@ -210,6 +214,120 @@ class Surface_Code_Environment_Multi_Decoding_Cycles():
         # aggiungo e restituisco stato, reward, self.done ("terminated"), truncated, info
         info = {}
         truncated = False
+        return self.board_state.astype(np.float32), reward, self.done, truncated, info
+    
+    
+    def step_old(self, action):
+        """
+        Given an action, this method executes the logic of the environment.
+
+        :param: action: The action, given as an integer, supplied by some agent.
+        :return: self.board_state: The new reset visible state of the environment = syndrome volume + action history volume
+        :return: reward: The reward for the action
+        :return: self.done: The boolean terminal state indicator
+        :return: truncated: A boolean indicating whether the episode was truncated. Always False here.
+        :return: info: A dictionary via which additional diagnostic information can be provided. Empty here.
+        """
+        new_error_flag = False
+        done_identity = False
+        if action == self.identity_index or int(self.completed_actions[action]) == 1:
+            done_identity = True
+
+        # 1) Apply the action to the hidden state
+        action_lattice = index_to_move(self.d, action, self.error_model, self.use_Y)
+        self.hidden_state = obtain_new_error_configuration(self.hidden_state, action_lattice)
+
+        # 2) Calculate the reward
+        self.current_true_syndrome = generate_surface_code_syndrome_NoFT_efficient(self.hidden_state, self.qubits)
+        current_true_syndrome_vector = np.reshape(self.current_true_syndrome,(self.d+1)**2) 
+        num_anyons = np.sum(self.current_true_syndrome)
+
+        correct_label = generate_one_hot_labels_surface_code(self.hidden_state, self.error_model)
+        # nb: ho sostituito la previsione del decoder statico fatta con keras ad una fatta con pytroch
+        decoder_label = self.static_decoder.predict(np.array([current_true_syndrome_vector])) #, batch_size=1, verbose=0 --> rimossi perchè inutili con il nuovo decoder torch
+
+
+        #reward function -----------------------
+        if self.prev_num_anyons is None:
+            delta = 0
+        else:
+            delta = np.log1p(self.prev_num_anyons) - np.log1p(num_anyons)  # positivo se migliori
+
+        reward = float(delta)
+
+        # piccolo costo per step (evita giri a vuoto)
+        reward -= 0.01
+
+        # penalizza identity
+        if done_identity:
+            reward -= 0.05
+
+        # --- terminal conditions / big signals ---
+        # successo vero: syndrome nullo + classe triviale
+        if num_anyons == 0 and np.argmax(correct_label) == 0:
+            reward += 10.0       
+
+        # fallimento: il decoder "referee" sbaglia la classe
+        elif np.argmax(decoder_label[0]) != np.argmax(correct_label):
+            reward -= 1.0      
+            self.done = True
+        #----------------------------------
+
+
+        # 3) If necessary, apply multiple errors and obtain an error volume - ensure that a non-trivial volume is generated
+        if done_identity:
+
+            trivial_volume = True
+            while trivial_volume: 
+                self.summed_syndrome_volume = np.zeros((self.d + 1, self.d + 1), int)
+                faulty_syndromes = []
+                for j in range(self.volume_depth):
+                    error = generate_error(self.d, self.p_phys, self.error_model)
+                    if int(np.sum(error)!=0):
+                        self.hidden_state = obtain_new_error_configuration(self.hidden_state, error)
+                        self.current_true_syndrome = generate_surface_code_syndrome_NoFT_efficient(self.hidden_state, self.qubits)
+                    current_faulty_syndrome = generate_faulty_syndrome(self.current_true_syndrome, self.p_meas)
+                    faulty_syndromes.append(current_faulty_syndrome)
+                    self.summed_syndrome_volume += current_faulty_syndrome
+                    self.lifetime += 1
+
+                if int(np.sum(self.summed_syndrome_volume)) != 0:
+                    trivial_volume = False
+
+            for j in range(self.volume_depth):
+                self.board_state[j, :, :] = self.padding_syndrome(faulty_syndromes[j])
+
+
+            # reset the legal moves
+            self.reset_legal_moves()
+
+            # update the part of the state which shows the actions you have just taken
+            self.board_state[self.volume_depth:,:,:] = np.zeros((self.n_action_layers, 2 * self.d + 1, 2 * self.d + 1),int)
+
+
+        else:
+            # Update the completed actions and legal moves
+            self.completed_actions[action] = int(not(self.completed_actions[action]))
+            if not action == self.identity_index:
+
+                acted_qubit = action%(self.d**2)
+                
+                if acted_qubit not in self.acted_on_qubits:
+                    self.acted_on_qubits.add(acted_qubit)
+                    for neighbour in self.qubit_neighbours[acted_qubit]:
+                            for j in range(self.n_action_layers):
+                                self.legal_actions.add(neighbour + j*self.d**2)
+
+                
+            # update the board state to reflect the action thats been taken
+            for k in range(self.n_action_layers):
+                    self.board_state[self.volume_depth + k, :, :] = self.padding_actions(self.completed_actions[k * self.d ** 2:(k + 1) * self.d ** 2])
+
+        # mi assicuro che il tipo di dato sia float32, necessario per compatibilità con pytorch
+        # aggiungo e restituisco stato, reward, self.done ("terminated"), truncated, info
+        info = {}
+        truncated = False
+        self.prev_num_anyons = num_anyons
         return self.board_state.astype(np.float32), reward, self.done, truncated, info
 
     def initialize_state(self):

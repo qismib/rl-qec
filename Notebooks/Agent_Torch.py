@@ -10,7 +10,9 @@ import torch.nn.functional as F
 import gymnasium as gym
 
 from Function_Library import *
-from Environments import *
+#from Environments_old_mix import *
+from Environments_old import *
+
 
 import copy
 import sys
@@ -23,8 +25,7 @@ import traceback
 DEFAULT_DEVICE = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
 # ----------------- default settings -------------------------------------------------------------------
-fixed_configs = {"d": 5,
-                "error_model": "X",                 
+fixed_configs = {"d": 5,              
                 "use_Y": False,
                 "volume_depth": 5,
                 "train_freq": 1,
@@ -906,6 +907,9 @@ def train_with_ppr(agent, env, policy, policy_net, memory, library, all_configs=
                     "loss": current_loss_log,
                     "epsilon": policy.current_epsilon,
                     "psi": current_psi,
+                    "X_count": env.X_count,
+                    "DP_count": env.DP_count
+
                 }
                 update_json_history(logging_path, log_data)
 
@@ -928,6 +932,8 @@ Success threshold : {all_configs["success_threshold"]}
 Patience Counter : {patience_counter}/{all_configs["stopping_patience"]}
 Metrics : Loss: {current_loss_print}, Epsilon: {policy.current_epsilon:.4f}, Psi: {current_psi:.4f}
 Total Training Time : {time_elapsed:.2f}s
+X error models count: {env.X_count}
+DP error models count: {env.DP_count}
 ---------------------------------
                               """
                     print(output)
