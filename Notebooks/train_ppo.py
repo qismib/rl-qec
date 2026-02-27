@@ -7,6 +7,8 @@ import torch
 from Function_Library import *
 from Environments_old import Surface_Code_Environment_Multi_Decoding_Cycles
 from Agent_Torch import *
+'''from Environments_mixed_noise import *
+from Agent_Torch_mixed_noise import *'''
 
 import json
 import copy

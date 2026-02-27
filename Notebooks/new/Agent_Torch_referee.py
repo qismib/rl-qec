@@ -11,7 +11,7 @@ import gymnasium as gym
 
 from Function_Library import *
 #from Environments_old_mix import *
-from Environments_referee import *
+from Environments_referee_error_mix import *
 
 
 import copy

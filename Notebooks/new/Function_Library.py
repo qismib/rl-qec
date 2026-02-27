@@ -252,7 +252,7 @@ def obtain_new_error_configuration(old_configuration,new_gates):
             
     return new_configuration
 
-def index_to_move(d,move_index,error_model,use_Y=True):
+'''def index_to_move(d,move_index,error_model,use_Y=True):
     """"
     Given an integer index corresponding to a Pauli flip on a physical data qubit, this
     function generates the lattice representation of the move.
@@ -303,9 +303,58 @@ def index_to_move(d,move_index,error_model,use_Y=True):
     else:
         print("Error model you have specified is not currently supported")
 
+    return new_move'''
+
+import numpy as np
+
+def index_to_move(d, move_index, num_action_layers=3, use_Y=True):
+    """
+    Converte un action index nella matrice mossa (d x d), indipendentemente dal noise model.
+
+    Assunzione mapping layer:
+        layer 0 -> X (1)
+        layer 1 -> Y (2)
+        layer 2 -> Z (3)
+
+    Action space atteso:
+        [layer0: d^2 azioni] + [layer1: d^2 azioni] + [layer2: d^2 azioni] + [identity]
+        quindi dimensione tipica = num_action_layers * d^2 + 1
+
+    Se move_index è identity (o fuori range azioni Pauli), restituisce matrice nulla.
+    """
+    new_move = np.zeros((d, d), dtype=int)
+
+    pauli_action_count = num_action_layers * (d ** 2)
+
+    # identity oppure indice fuori dalle azioni Pauli
+    if move_index < 0 or move_index >= pauli_action_count:
+        return new_move
+
+    layer = move_index // (d ** 2)          # 0,1,2
+    qubit_idx = move_index % (d ** 2)
+
+    row = qubit_idx // d
+    col = qubit_idx % d
+
+    # Mapping layer -> Pauli label
+    # 0->X(1), 1->Y(2), 2->Z(3)
+    if layer == 0:
+        move_type = 1
+    elif layer == 1:
+        # Se use_Y=False, il layer Y non dovrebbe mai essere legale.
+        # Per sicurezza, restituisco no-op.
+        if not use_Y:
+            return new_move
+        move_type = 2
+    elif layer == 2:
+        move_type = 3
+    else:
+        return new_move
+
+    new_move[row, col] = move_type
     return new_move
 
-def generate_one_hot_labels_surface_code(error,err_model):
+'''def generate_one_hot_labels_surface_code(error,err_model):
     """"
 
     This function generates the homology class label, in a one-hot encoding, for a given perfect syndrome, to use as the target label
@@ -335,7 +384,41 @@ def generate_one_hot_labels_surface_code(error,err_model):
 
     training_label[X + 2*Z] = 1
     
+    return training_label'''
+
+def generate_one_hot_labels_surface_code(error, err_model):
+    """
+    Generate homology-class label (one-hot) for a given error configuration.
+
+    error: np.ndarray (d,d) with values in {0,1,2,3} = {I,X,Y,Z}
+    err_model: string in ["X", "IIDXZ", "DP", "MIXED"]
+    """
+    d = error.shape[0]
+
+    X = 0
+    Z = 0
+
+    # Parità X (Y conta anche come X component)
+    for x in range(d):
+        if error[x, 0] in [1, 2]:   # X or Y
+            X = 1 - X
+
+    # Parità Z (Y conta anche come Z component)
+    for y in range(d):
+        if error[0, y] in [2, 3]:   # Y or Z
+            Z = 1 - Z
+
+    # 4 classi per modelli che possono avere componenti X e Z insieme
+    if isinstance(err_model, str) and err_model in ["IIDXZ", "DP", "MIXED"]:
+        training_label = np.zeros(4, dtype=int)
+        training_label[X + 2 * Z] = 1
+    else:
+        # Caso "X" puro: solo 2 classi (trivial / X-logical)
+        training_label = np.zeros(2, dtype=int)
+        training_label[X] = 1
+
     return training_label
+
 
 # ----------------------------------------------------------------------------------------------------------------------------
 # -------------- funzioni che ho aggiunto io ---------------------------------------------------------------------------------
@@ -595,3 +678,168 @@ def pl_over_last_cycles(all_lifetimes, target_cycles=500):
 
 
 
+#--------
+
+import numpy as np
+import random
+
+# ----------------- helper: composizione Pauli -----------------
+# codifica: 0=I, 1=X, 2=Y, 3=Z
+# rappresentazione bit (x,z):
+# I=(0,0), X=(1,0), Y=(1,1), Z=(0,1)
+
+_PAULI_TO_BITS = {
+    0: (0, 0),
+    1: (1, 0),
+    2: (1, 1),
+    3: (0, 1),
+}
+
+_BITS_TO_PAULI = {
+    (0, 0): 0,
+    (1, 0): 1,
+    (1, 1): 2,
+    (0, 1): 3,
+}
+
+def compose_pauli_labels(p_old: int, p_new: int) -> int:
+    """
+    Composizione di due Pauli ignorando la fase globale.
+    Esempi:
+      X * X = I, X * Z = Y, Y * Z = X, ecc.
+    """
+    x1, z1 = _PAULI_TO_BITS[int(p_old)]
+    x2, z2 = _PAULI_TO_BITS[int(p_new)]
+    return _BITS_TO_PAULI[((x1 ^ x2), (z1 ^ z2))]
+
+
+def apply_single_pauli(error_grid: np.ndarray, r: int, c: int, pauli_label: int):
+    """Applica un Pauli (1/2/3) al qubit (r,c) componendolo con l'errore già presente."""
+    error_grid[r, c] = compose_pauli_labels(int(error_grid[r, c]), int(pauli_label))
+
+
+def get_nn_pairs(d: int, include_diagonal: bool = False):
+    """
+    Restituisce tutte le coppie di vicini (r1,c1)-(r2,c2), senza duplicati.
+    Default: vicini Manhattan (destra, sotto).
+    """
+    pairs = []
+    for r in range(d):
+        for c in range(d):
+            # destra
+            if c + 1 < d:
+                pairs.append(((r, c), (r, c + 1)))
+            # sotto
+            if r + 1 < d:
+                pairs.append(((r, c), (r + 1, c)))
+            if include_diagonal:
+                if r + 1 < d and c + 1 < d:
+                    pairs.append(((r, c), (r + 1, c + 1)))
+                if r + 1 < d and c - 1 >= 0:
+                    pairs.append(((r, c), (r + 1, c - 1)))
+    return pairs
+
+
+def generate_mixed_error(
+    d: int,
+    config: dict,
+    rng: np.random.Generator = None,
+):
+    """
+    Genera un errore misto (uncorrelated + correlated) su una lattice dxd.
+
+    Output:
+        error : np.ndarray shape (d,d), valori in {0,1,2,3}
+                0=I,1=X,2=Y,3=Z
+
+    Parametri attesi in config (esempio sotto):
+    {
+      # --- uncorrelated single-qubit ---
+      "p_x": 0.002,
+      "p_y": 0.001,
+      "p_z": 0.002,
+
+      # --- correlated pair events ---
+      # probabilità di "attivazione" di un evento correlato su ciascuna coppia candidata
+      "p_corr_xx": 0.0005,
+      "p_corr_zz": 0.0005,
+      "p_corr_xz": 0.0002,
+      "p_corr_zx": 0.0002,
+      "p_corr_yy": 0.0001,
+
+      # --- topologia correlazioni ---
+      "include_diagonal_pairs": False,
+
+      # --- opzionale: applica prima correlati o prima uncorrelated ---
+      "correlated_first": True,
+    }
+
+    Note:
+    - Le probabilità sono interpretate come Bernoulli indipendenti per qubit (uncorrelated)
+      e per coppia (correlated).
+    - Se più eventi colpiscono lo stesso qubit, gli errori vengono composti.
+    """
+    if rng is None:
+        rng = np.random.default_rng()
+
+    error = np.zeros((d, d), dtype=int)
+
+    # Estrai parametri con default
+    p_x = float(config.get("p_x", 0.0))
+    p_y = float(config.get("p_y", 0.0))
+    p_z = float(config.get("p_z", 0.0))
+
+    p_corr_xx = float(config.get("p_corr_xx", 0.0))
+    p_corr_zz = float(config.get("p_corr_zz", 0.0))
+    p_corr_xz = float(config.get("p_corr_xz", 0.0))
+    p_corr_zx = float(config.get("p_corr_zx", 0.0))
+    p_corr_yy = float(config.get("p_corr_yy", 0.0))
+
+    include_diagonal_pairs = bool(config.get("include_diagonal_pairs", False))
+    correlated_first = bool(config.get("correlated_first", True))
+
+    pairs = get_nn_pairs(d, include_diagonal=include_diagonal_pairs)
+
+    def apply_uncorrelated():
+        # Per ogni qubit applico eventi indipendenti X/Y/Z
+        # (se più eventi accadono sullo stesso qubit, si compongono)
+        for r in range(d):
+            for c in range(d):
+                if rng.random() < p_x:
+                    apply_single_pauli(error, r, c, 1)  # X
+                if rng.random() < p_y:
+                    apply_single_pauli(error, r, c, 2)  # Y
+                if rng.random() < p_z:
+                    apply_single_pauli(error, r, c, 3)  # Z
+
+    def apply_correlated():
+        # Per ogni coppia di vicini applico eventi correlati indipendenti
+        for (r1, c1), (r2, c2) in pairs:
+            if rng.random() < p_corr_xx:
+                apply_single_pauli(error, r1, c1, 1)
+                apply_single_pauli(error, r2, c2, 1)
+
+            if rng.random() < p_corr_zz:
+                apply_single_pauli(error, r1, c1, 3)
+                apply_single_pauli(error, r2, c2, 3)
+
+            if rng.random() < p_corr_xz:
+                apply_single_pauli(error, r1, c1, 1)
+                apply_single_pauli(error, r2, c2, 3)
+
+            if rng.random() < p_corr_zx:
+                apply_single_pauli(error, r1, c1, 3)
+                apply_single_pauli(error, r2, c2, 1)
+
+            if rng.random() < p_corr_yy:
+                apply_single_pauli(error, r1, c1, 2)
+                apply_single_pauli(error, r2, c2, 2)
+
+    if correlated_first:
+        apply_correlated()
+        apply_uncorrelated()
+    else:
+        apply_uncorrelated()
+        apply_correlated()
+
+    return error

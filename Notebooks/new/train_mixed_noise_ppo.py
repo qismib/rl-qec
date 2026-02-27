@@ -4,8 +4,10 @@ import matplotlib.pyplot as plt
 import torch
 
 from Function_Library import *
-from Environments import *
-from Agent_Torch import *
+'''from Environments import *
+from Agent_Torch_old import *'''
+from Environments_mixed_noise import *
+from Agent_Torch_mixed_noise import *
 
 import torch
 from sb3_contrib import MaskablePPO
@@ -21,6 +23,24 @@ import torch as th
 import torch.nn as nn
 import torch.nn.functional as F
 from stable_baselines3.common.torch_layers import BaseFeaturesExtractor
+
+noise_cfg = {
+    # uncorrelated
+    "p_x": 0.002,
+    "p_y": 0.0005,
+    "p_z": 0.002,
+
+    # correlated nearest-neighbor
+    "p_corr_xx": 0.0004,
+    "p_corr_zz": 0.0004,
+    "p_corr_xz": 0.0001,
+    "p_corr_zx": 0.0001,
+    "p_corr_yy": 0.00005,
+
+    "include_diagonal_pairs": False,
+    "correlated_first": True,
+}
+
 
 class AvgLifetimeAndRewardCallback(BaseCallback):
     def __init__(self, print_every=100, window_after=500, window_size=500, verbose=1):
@@ -125,8 +145,8 @@ core_env = Surface_Code_Environment_Multi_Decoding_Cycles(
     d=all_configs["d"],
     p_phys=all_configs["p_phys"],
     p_meas=all_configs["p_meas"],
-    error_model=all_configs["error_model"],
-    volume_depth=all_configs["volume_depth"]
+    volume_depth=all_configs["volume_depth"],
+    noise_cfg=noise_cfg
 )
 
 env = SurfaceCodeGymWrapper(core_env)
