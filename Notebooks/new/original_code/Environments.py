@@ -159,7 +159,6 @@ class Surface_Code_Environment_Multi_Decoding_Cycles():
 
         # 3) If necessary, apply multiple errors and obtain an error volume - ensure that a non-trivial volume is generated
         if done_identity:
-            self.done = True
 
             trivial_volume = True
             while trivial_volume: 

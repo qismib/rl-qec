@@ -96,6 +96,9 @@ class Surface_Code_Environment_Multi_Decoding_Cycles():
         self.multi_cycle = True
 
         self.num_anyons_before = None
+        self.success_count = 0
+        self.failure_count = 0
+        self.commit_count = 0
 
     def reset(self):       
         """
@@ -257,13 +260,17 @@ class Surface_Code_Environment_Multi_Decoding_Cycles():
 
         # 3) If necessary, apply multiple errors and obtain an error volume - ensure that a non-trivial volume is generated
         if done_identity:
-            if logical_class != 0 and num_anyons ==0:
+            self.commit_count += 1
+            
+            if logical_class != 0 and num_anyons == 0:
                 self.done = True
 
             if num_anyons == 0 and logical_class == 0:
                 reward += 1.0
+                self.success_count += 1
             elif num_anyons == 0 and logical_class != 0:
                 reward += -1.0
+                self.failure_count += 1
             else:
                 reward += -0.2
 

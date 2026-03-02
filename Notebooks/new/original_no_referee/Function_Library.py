@@ -372,13 +372,16 @@ def update_json_history(filepath, new_log_data):
         json.dump(history, f, indent=4)
 
 
-def setup_logging_and_checkpointing(all_configs, base_dir="runs"):
+def setup_logging_and_checkpointing(all_configs, base_dir="runs", rl_number=None):
     """
     funzione per creare la struttura di directory per il logging e i checkpoint.
     """
     # creo il nome della run basato sull'orario e sui parametri
     now = datetime.datetime.now().strftime("%Y%m%d-%H%M%S")
-    run_name = f"DDQN_d{all_configs['d']}_p{all_configs['p_phys']}_{now}"
+    if rl_number == None:
+        run_name = f"DDQN_d{all_configs['d']}_p{all_configs['p_phys']}_{now}"
+    else:
+        run_name = f"DDQN_d{all_configs['d']}_p{all_configs['p_phys']}_{now}_rl{rl_number}"
     
     # creo la directory principale dell'esperimento
     logging_directory = os.path.join(base_dir, run_name)

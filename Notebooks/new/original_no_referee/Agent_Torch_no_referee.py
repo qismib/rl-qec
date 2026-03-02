@@ -434,7 +434,7 @@ def trainV2(agent, env, policy, policy_net, memory, all_configs=default_settings
     patience_counter = 0
 
     # creo il percorso di logging, checkpoint e salvataggio buffer
-    logging_directory, logging_path, best_model_path = setup_logging_and_checkpointing(all_configs)
+    logging_directory, logging_path, best_model_path = setup_logging_and_checkpointing(all_configs, rl_number=1)
     final_model_path = os.path.join(logging_directory, "final_policy_net.pth") 
     memory_path = os.path.join(logging_directory, "memory.pkl")
 
@@ -528,6 +528,12 @@ def trainV2(agent, env, policy, policy_net, memory, all_configs=default_settings
                 # stampo a console se sono in print freq
                 if episode_count % all_configs["print_freq"] == 0:
                     time_elapsed = time.time() - start_time # aggiornamento per il tempo
+                    success_rate = env.success_count / all_configs["print_freq"]
+                    failure_rate = env.failure_count / all_configs["print_freq"]
+                    commit_success_rate = env.success_count / max(1, env.commit_count)
+                    env.success_count = 0
+                    env.failure_count = 0
+                    env.commit_count = 0
                     # stringa di stampa dettagliata
                     output = f"""
 --------------------------------
@@ -544,6 +550,9 @@ Success threshold : {all_configs["success_threshold"]}
 Patience Counter: {patience_counter}/{all_configs["stopping_patience"]}
 Metrics: Loss: {current_loss_print}, Epsilon: {policy.current_epsilon:.4f}
 Total Training Time: {time_elapsed:.2f}s
+Success rate: {success_rate}
+Failure rate: {failure_rate}
+Commit success rate: {commit_success_rate}
 --------------------------------
                                   """ 
                     print(output)
